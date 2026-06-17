@@ -1,4 +1,4 @@
-# 🚀 Goida VPN 26 для Clash Mi
+# 🚀 VPN для Clash Mi
 
 [![Update Status](https://github.com/crolankawasaki/Goida26-Clash/actions/workflows/update.yml/badge.svg)](https://github.com/crolankawasaki/Goida26-Clash/actions/workflows/update.yml)
 
