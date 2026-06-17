@@ -2,7 +2,7 @@
 
 [![Update Status](https://github.com/Grayowlrus/QQQ/actions/workflows/update.yml/badge.svg)](https://github.com/Grayowlrus/QQQ/blob/main/clash.yaml)
 
-Автообновляемый конфиг для **Clash Mi** на iOS. Список серверов проверяется каждые 30 минут.
+Список серверов проверяется каждые 30 минут.
 
 ---
 
@@ -16,11 +16,3 @@ https://github.com/Grayowlrus/QQQ/blob/main/clash.yaml
 - Только живые сервера (проверка TCP)
 - Автовыбор самого быстрого сервера (url-test)
 - Поддержка: VMess, VLESS, Trojan, SS, Hysteria2, Tuic, WireGuard и др.
-
----
-
-## ⚠️ Если не работает
-
-1. Проверьте статус обновлений сверху (зелёный бейдж = всё ОК)
-2. Обновите профиль в Clash Mi (облако со стрелкой)
-3. Если ошибка — [напишите сюда](../../issues)
