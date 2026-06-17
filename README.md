@@ -1,6 +1,6 @@
 # 🚀 VPN для Clash Mi
 
-[![Update Status](https://github.com/crolankawasaki/Goida26-Clash/actions/workflows/update.yml/badge.svg)](https://github.com/crolankawasaki/Goida26-Clash/actions/workflows/update.yml)
+[![Update Status](https://github.com/crolankawasaki/Goida26-Clash/actions/workflows/update.yml/badge.svg)](https://github.com/Grayowlrus/QQQ/blob/main/clash.yaml)
 
 Автообновляемый конфиг для **Clash Mi** на iOS. Список серверов проверяется каждые 30 минут.
 
