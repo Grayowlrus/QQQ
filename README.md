@@ -1,27 +1,14 @@
 # 🚀 VPN для Clash Mi
 
-[![Update Status](https://github.com/crolankawasaki/Goida26-Clash/actions/workflows/update.yml/badge.svg)](https://github.com/Grayowlrus/QQQ/blob/main/clash.yaml)
+[![Update Status](https://github.com/Grayowlrus/QQQ/actions/workflows/update.yml/badge.svg)](https://github.com/Grayowlrus/QQQ/blob/main/clash.yaml)
 
 Автообновляемый конфиг для **Clash Mi** на iOS. Список серверов проверяется каждые 30 минут.
 
 ---
 
 ## 🔗 Ссылка для подписки
-https://raw.githubusercontent.com/crolankawasaki/Goida26-Clash/main/clash.yaml
+https://github.com/Grayowlrus/QQQ/blob/main/clash.yaml
 
----
-
-## 📱 Как добавить в Clash Mi
-
-1. Установите **Clash Mi** из App Store:  
-   👉 [Скачать Clash Mi](https://apps.apple.com/us/app/clash-mi/id6744321968)
-2. Откройте **Clash Mi** → **Профили** → **+** → **URL**
-3. Вставьте ссылку: https://raw.githubusercontent.com/crolankawasaki/Goida26-Clash/main/clash.yaml
-4. Нажмите **Сохранить**
-
-**Обновление:** нажмите на облако со стрелкой напротив профиля.
-
----
 
 ## ⚡ Особенности
 
