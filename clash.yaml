@@ -1,10 +1,10 @@
-# Обновлено: 2026-07-12 18:57 UTC
+# Обновлено: 2026-07-12 20:05 UTC
 # Всего в источнике: 98
-# Живых серверов: 94
+# Живых серверов: 97
 # Источник: 26.txt
 
 proxies:
-- name: 🇩🇪538Mb | Hetzner
+- name: 🌐734Mb | OpenRay 🇨🇦 CA-22468
   type: vless
   server: 188.114.97.6
   port: 80
@@ -20,6 +20,19 @@ proxies:
 - name: 🇫🇷546Mb | OVH
   type: vless
   server: 188.114.97.6
+  port: 80
+  uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /http
+    headers:
+      Host: de.vpnbase.net
+- name: 🇫🇷308Mb | OVH
+  type: vless
+  server: 45.130.125.207
   port: 80
   uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
   udp: true
@@ -56,32 +69,6 @@ proxies:
     path: /http
     headers:
       Host: de.vpnbase.net
-- name: 🇩🇪383Mb | Hetzner
-  type: vless
-  server: speedtest.net
-  port: 80
-  uuid: cb5d5d72-4df6-41fe-a6bc-580346aeff8f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vvvv7iq.global.ssl.fastly.net
-- name: 🇫🇷308Mb | OVH
-  type: vless
-  server: 45.130.125.207
-  port: 80
-  uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /http
-    headers:
-      Host: de.vpnbase.net
 - name: 🇫🇷408Mb | OVH
   type: vless
   server: 188.114.97.6
@@ -95,19 +82,6 @@ proxies:
     path: /http
     headers:
       Host: de.vpnbase.net
-- name: 🌐734Mb | OpenRay 🇨🇦 CA-22468
-  type: vless
-  server: 188.114.97.6
-  port: 80
-  uuid: 7a4e9c21-b3d8-4f6a-9e52-1c8d5f0a6b73
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: srv75.configur.name.ng
 - name: 🇫🇷491Mb | OVH
   type: vless
   server: 45.130.125.209
@@ -134,6 +108,32 @@ proxies:
     path: /
     headers:
       Host: vvvv7iq.global.ssl.fastly.net
+- name: 🇩🇪538Mb | Hetzner
+  type: vless
+  server: 188.114.97.6
+  port: 80
+  uuid: 7a4e9c21-b3d8-4f6a-9e52-1c8d5f0a6b73
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: srv75.configur.name.ng
+- name: 🇩🇪383Mb | Hetzner
+  type: vless
+  server: speedtest.net
+  port: 80
+  uuid: cb5d5d72-4df6-41fe-a6bc-580346aeff8f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vvvv7iq.global.ssl.fastly.net
 - name: 🇺🇸205Mb | BL Networks
   type: vless
   server: 162.33.177.100
@@ -143,15 +143,6 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: deepl.com
-- name: 🌐499Mb | 🇳🇱 247 Нидерланды @vpnobhodrub
-  type: vless
-  server: 5.35.34.181
-  port: 443
-  uuid: 96e86354-c333-47b8-9bc7-271bba70df1d
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: music.yandex.ru
 - name: 🌐570Mb | 🔒 VL-TCP-RLT 🇬🇧 GB-67.159.56.5
   type: vless
   server: 67.159.56.57
@@ -161,6 +152,24 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: uk.bvps.cloud
+- name: 🌐499Mb | 🇳🇱 247 Нидерланды @vpnobhodrub
+  type: vless
+  server: 5.35.34.181
+  port: 443
+  uuid: 96e86354-c333-47b8-9bc7-271bba70df1d
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: music.yandex.ru
+- name: 🌐133Mb | @DeltaKroneckerGithub
+  type: vless
+  server: 162.33.177.100
+  port: 40443
+  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: deepl.com
 - name: 🇫🇮478Mb | Hetzner
   type: vless
   server: 146.75.119.82
@@ -174,7 +183,16 @@ proxies:
     path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
     headers:
       Host: rb24.ir
-- name: 🇫🇷193Mb | Hostkey Bv
+- name: 🇩🇪416Mb | Global Connectivity Solutions Llp
+  type: vless
+  server: 85.208.139.100
+  port: 443
+  uuid: 612c872d-1370-4109-8644-f0755f97e33f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.samsung.com
+- name: 🇫🇷312Mb | Hostkey Bv
   type: vless
   server: 194.164.217.139
   port: 448
@@ -192,33 +210,6 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: www.samsung.com
-- name: 🇫🇷312Mb | Hostkey Bv
-  type: vless
-  server: 194.164.217.139
-  port: 448
-  uuid: d61b4e1b-4745-484f-8362-18537825a7af
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.samsung.com
-- name: 🇸🇪378Mb | Aeza Group
-  type: vless
-  server: 89.22.228.57
-  port: 443
-  uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: stockholmresilience.org
-- name: 🇸🇪251Mb | Aeza Group
-  type: vless
-  server: 89.22.228.57
-  port: 443
-  uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: stockholmresilience.org
 - name: 🇸🇪286Mb | Aeza Group
   type: vless
   server: 89.22.228.57
@@ -237,6 +228,15 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: stockholmresilience.org
+- name: 🇫🇷193Mb | Hostkey Bv
+  type: vless
+  server: 194.164.217.139
+  port: 448
+  uuid: d61b4e1b-4745-484f-8362-18537825a7af
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.samsung.com
 - name: 🇬🇧197Mb | Aeza Group
   type: vless
   server: 77.221.159.165
@@ -246,15 +246,15 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: deepl.com
-- name: 🇫🇮175Mb | Aeza Group
+- name: 🇸🇪251Mb | Aeza Group
   type: vless
-  server: 77.221.159.165
-  port: 40443
-  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
+  server: 89.22.228.57
+  port: 443
+  uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: deepl.com
+  sni: stockholmresilience.org
 - name: 🌐325Mb | @DeltaKroneckerGithub
   type: vless
   server: 89.208.113.54
@@ -264,81 +264,24 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: www.icloud.com
-- name: 🇫🇷170Mb | Aeza Group
+- name: 🇫🇮175Mb | Aeza Group
   type: vless
-  server: 81.19.137.144
+  server: 77.221.159.165
   port: 40443
   uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
   udp: true
   skip-cert-verify: true
   encryption: none
   sni: deepl.com
-- name: 🇦🇹203Mb | Aeza Group
+- name: 🇸🇪378Mb | Aeza Group
   type: vless
-  server: 77.73.131.154
+  server: 89.22.228.57
   port: 443
   uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: vindobona.org
-- name: 🇫🇷151Mb | Aeza Group
-  type: vless
-  server: 81.19.137.144
-  port: 40443
-  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: deepl.com
-- name: 🇮🇷136Mb | NetCrafters OU
-  type: vless
-  server: 62.60.155.0
-  port: 443
-  uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: telegraph.co.uk
-- name: 🇦🇹199Mb | Aeza Group
-  type: vless
-  server: 77.73.131.154
-  port: 443
-  uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: vindobona.org
-- name: 🇫🇮370Mb | Aeza Group
-  type: vless
-  server: 104.238.29.241
-  port: 443
-  uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: helsinki.fi
-- name: 🇦🇹166Mb | Aeza Group
-  type: vless
-  server: 77.73.131.154
-  port: 443
-  uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: vindobona.org
-- name: 🇵🇱371Mb | H2nexus
-  type: vless
-  server: 82.148.29.20
-  port: 8443
-  uuid: 3162fc35-b037-40fb-a1e0-8e7deacecfc2
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: gifs.ru
-  network: grpc
-  grpc-opts:
-    grpc-service-name: ''
+  sni: stockholmresilience.org
 - name: 🇫🇮447Mb | Aeza Group
   type: vless
   server: 104.238.29.241
@@ -348,16 +291,7 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: helsinki.fi
-- name: 🌐162Mb | 4Sarina-9689
-  type: vless
-  server: 81.19.137.144
-  port: 40443
-  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: deepl.com
-- name: 🇫🇮326Mb | Aeza Group
+- name: 🇫🇮370Mb | Aeza Group
   type: vless
   server: 104.238.29.241
   port: 443
@@ -375,15 +309,51 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: twitch.tv
-- name: 🇸🇪146Mb | Aeza Group
+- name: 🇦🇹199Mb | Aeza Group
   type: vless
-  server: 147.45.78.118
+  server: 77.73.131.154
   port: 443
-  uuid: 0281c1be-e123-480a-a104-d0b506ecfc7d
+  uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: www.google.com
+  sni: vindobona.org
+- name: 🇫🇮326Mb | Aeza Group
+  type: vless
+  server: 104.238.29.241
+  port: 443
+  uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: helsinki.fi
+- name: 🇦🇹203Mb | Aeza Group
+  type: vless
+  server: 77.73.131.154
+  port: 443
+  uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: vindobona.org
+- name: 🇮🇷136Mb | NetCrafters OU
+  type: vless
+  server: 62.60.155.0
+  port: 443
+  uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: telegraph.co.uk
+- name: 🇦🇹166Mb | Aeza Group
+  type: vless
+  server: 77.73.131.154
+  port: 443
+  uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: vindobona.org
 - name: 🇩🇪155Mb | Ultahost
   type: vless
   server: 92.53.64.241
@@ -396,6 +366,33 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: ''
+- name: 🌐162Mb | 4Sarina-9689
+  type: vless
+  server: 81.19.137.144
+  port: 40443
+  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: deepl.com
+- name: 🇫🇷151Mb | Aeza Group
+  type: vless
+  server: 81.19.137.144
+  port: 40443
+  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: deepl.com
+- name: 🇫🇷170Mb | Aeza Group
+  type: vless
+  server: 81.19.137.144
+  port: 40443
+  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: deepl.com
 - name: 🇩🇪278Mb | QWINS LTD
   type: vless
   server: 185.221.154.175
@@ -405,6 +402,33 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: www.twitch.tv
+- name: 🇫🇮226Mb | Inios Oy
+  type: vless
+  server: 192.124.181.250
+  port: 443
+  uuid: 51e4f35c-abf1-4799-80f5-50558475fc0d
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: google.com
+- name: 🇺🇸219Mb | Servhost Group
+  type: vless
+  server: 150.241.75.170
+  port: 443
+  uuid: c390be4b-00b5-4583-93f2-bbc099b8e7f1
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.yandex.ru
+- name: 🇫🇮176Mb | Aeza Group
+  type: vless
+  server: 193.233.136.85
+  port: 2053
+  uuid: f7e0e597-636e-4550-9f54-6ab1c0e8cf49
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.nvidia.com
 - name: 🇩🇪185Mb | QWINS LTD
   type: vless
   server: 185.221.154.175
@@ -423,24 +447,6 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: twitch.tv
-- name: 🇫🇮176Mb | Aeza Group
-  type: vless
-  server: 193.233.136.85
-  port: 2053
-  uuid: f7e0e597-636e-4550-9f54-6ab1c0e8cf49
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.nvidia.com
-- name: 🇫🇮226Mb | Inios Oy
-  type: vless
-  server: 192.124.181.250
-  port: 443
-  uuid: 51e4f35c-abf1-4799-80f5-50558475fc0d
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: google.com
 - name: 🇹🇷210Mb | Sh Online Iletisim Anonim Sirketi
   type: vless
   server: 31.210.52.70
@@ -450,6 +456,18 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: twitch.tv
+- name: 🇵🇱371Mb | H2nexus
+  type: vless
+  server: 82.148.29.20
+  port: 8443
+  uuid: 3162fc35-b037-40fb-a1e0-8e7deacecfc2
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: gifs.ru
+  network: grpc
+  grpc-opts:
+    grpc-service-name: ''
 - name: 🇫🇮165Mb | Aeza Group
   type: vless
   server: 193.233.136.85
@@ -459,33 +477,6 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: www.nvidia.com
-- name: 🇷🇺233Mb | Hosting technology LTD
-  type: vless
-  server: 138.16.186.81
-  port: 8443
-  uuid: 0c6b632a-cd96-4b74-9b51-151e3b5697db
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: vk.com
-- name: 🌐297Mb | Lite ⚪Россия🇷🇺 @FreeCFGHub
-  type: vless
-  server: 212.22.82.138
-  port: 443
-  uuid: 7438bc61-fc48-406c-a8a8-cb2185849d99
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: max.ru
-- name: 🇷🇺180Mb | Hosting technology LTD
-  type: vless
-  server: 138.16.186.81
-  port: 443
-  uuid: 0c6b632a-cd96-4b74-9b51-151e3b5697db
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.ya.ru
 - name: 🇷🇺186Mb | Hosting technology LTD
   type: vless
   server: 138.16.186.81
@@ -495,24 +486,33 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: www.ya.ru
-- name: 🇺🇸446Mb | Servhost Group
+- name: 🇷🇺180Mb | Hosting technology LTD
   type: vless
-  server: xnod3x.artemida.live
-  port: 8443
-  uuid: 5e9709cb-bfc3-67b8-a8e1-7beea7dd72d8
+  server: 138.16.186.81
+  port: 443
+  uuid: 0c6b632a-cd96-4b74-9b51-151e3b5697db
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: xnod3x.artemida.live
-- name: 🇺🇸327Mb | Servhost Group
+  sni: www.ya.ru
+- name: 🇸🇪146Mb | Aeza Group
   type: vless
-  server: xnod3x.artemida.live
-  port: 8443
-  uuid: 5e9709cb-bfc3-0152-a8e1-7beea7dd72d8
+  server: 147.45.78.118
+  port: 443
+  uuid: 0281c1be-e123-480a-a104-d0b506ecfc7d
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: xnod3x.artemida.live
+  sni: www.google.com
+- name: 🇷🇺233Mb | Hosting technology LTD
+  type: vless
+  server: 138.16.186.81
+  port: 8443
+  uuid: 0c6b632a-cd96-4b74-9b51-151e3b5697db
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: vk.com
 - name: 🇷🇺186Mb | Hosting technology LTD (2)
   type: vless
   server: 138.16.186.81
@@ -531,24 +531,15 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: xnod5x.artemida.live
-- name: 🇳🇱130Mb | Servers Tech Fzco
+- name: 🌐297Mb | Lite ⚪Россия🇷🇺 @FreeCFGHub
   type: vless
-  server: 5.35.34.181
+  server: 212.22.82.138
   port: 443
-  uuid: 96e86354-c333-47b8-9bc7-271bba70df1d
+  uuid: 7438bc61-fc48-406c-a8a8-cb2185849d99
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: music.yandex.ru
-- name: 🌐131Mb | 🇫🇮 202 Финляндия @vpnobhodrubo
-  type: vless
-  server: meowfin.nethcloud.top
-  port: 443
-  uuid: a34b5e88-cf0d-4c01-8199-2d1002d3c787
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.wikihow.com
+  sni: max.ru
 - name: 🇷🇺160Mb | Hosting technology LTD
   type: vless
   server: 138.16.186.81
@@ -558,24 +549,15 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: www.ya.ru
-- name: 🇫🇷120Mb | Aeza Group
+- name: 🇳🇱130Mb | Servers Tech Fzco
   type: vless
-  server: 81.19.137.144
-  port: 40443
-  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
+  server: 5.35.34.181
+  port: 443
+  uuid: 96e86354-c333-47b8-9bc7-271bba70df1d
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: deepl.com
-- name: 🇫🇷90Mb | Hostkey Bv
-  type: vless
-  server: 194.164.217.139
-  port: 448
-  uuid: d61b4e1b-4745-484f-8362-18537825a7af
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.samsung.com
+  sni: music.yandex.ru
 - name: 🇮🇷120Mb | NetCrafters OU
   type: vless
   server: 62.60.155.0
@@ -585,6 +567,33 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: telegraph.co.uk
+- name: 🌐131Mb | 🇫🇮 202 Финляндия @vpnobhodrubo
+  type: vless
+  server: meowfin.nethcloud.top
+  port: 443
+  uuid: a34b5e88-cf0d-4c01-8199-2d1002d3c787
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.wikihow.com
+- name: 🇫🇷120Mb | Aeza Group
+  type: vless
+  server: 81.19.137.144
+  port: 40443
+  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: deepl.com
+- name: 🇺🇸327Mb | Servhost Group
+  type: vless
+  server: xnod3x.artemida.live
+  port: 8443
+  uuid: 5e9709cb-bfc3-0152-a8e1-7beea7dd72d8
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: xnod3x.artemida.live
 - name: 🇫🇮86Mb | Hetzner
   type: vless
   server: 146.75.119.82
@@ -607,6 +616,24 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: deepl.com
+- name: 🇺🇸446Mb | Servhost Group
+  type: vless
+  server: xnod3x.artemida.live
+  port: 8443
+  uuid: 5e9709cb-bfc3-67b8-a8e1-7beea7dd72d8
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: xnod3x.artemida.live
+- name: 🇫🇷90Mb | Hostkey Bv
+  type: vless
+  server: 194.164.217.139
+  port: 448
+  uuid: d61b4e1b-4745-484f-8362-18537825a7af
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.samsung.com
 - name: 🇫🇷115Mb | Aeza Group
   type: vless
   server: 89.208.113.157
@@ -634,15 +661,6 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: twitch.tv
-- name: 🇦🇹88Mb | Aeza Group
-  type: vless
-  server: 77.73.131.154
-  port: 443
-  uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: vindobona.org
 - name: 🇫🇷64Mb | Dyjix SAS
   type: vless
   server: france2.nicqy.com
@@ -652,15 +670,24 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: samsung.com
-- name: 🌐64Mb | 🇬🇧 vl-re-ra 260712-121414.388
+- name: 🌐78Mb | @DeltaKroneckerGithub
   type: vless
-  server: 138.124.113.18
+  server: 31.76.21.58
+  port: 57176
+  uuid: 6395bc01-f320-4327-94a4-7f523e96b5dc
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.amd.com
+- name: 🇦🇹88Mb | Aeza Group
+  type: vless
+  server: 77.73.131.154
   port: 443
   uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: iamsterdam.com
+  sni: vindobona.org
 - name: 🇸🇪59Mb | Akamai Connected Cloud
   type: vless
   server: 104.105.106.147
@@ -673,15 +700,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: ''
-- name: 🇺🇸91Mb | Servhost Group
-  type: vless
-  server: xnod3x.artemida.live
-  port: 8443
-  uuid: 5e9709cb-bfc3-da2b-a8e1-7beea7dd72d8
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: xnod3x.artemida.live
 - name: 🇫🇷63Mb | Aeza Group
   type: vless
   server: 89.208.113.157
@@ -691,33 +709,6 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: parisjetaime.com
-- name: 🇲🇾166Mb | GB Network Solutions Sdn Bhd
-  type: vless
-  server: 87.76.160.67
-  port: 443
-  uuid: 137136bb-2da0-4838-bfa4-15b2fb6e0963
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: my.cdn-global.pro
-- name: 🇷🇺423Mb | Kviktel
-  type: vless
-  server: 176.109.85.77
-  port: 10443
-  uuid: f6653e2d-5d7d-476e-8f97-2ae777151a80
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: 54.img.avito.st
-- name: 🇷🇺96Mb | YandexCloud
-  type: vless
-  server: 51.250.0.174
-  port: 443
-  uuid: d4f7932c-0c5b-40aa-a41d-7fd4112cd4b0
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ads.x5.ru
 - name: 🇷🇺84Mb | Hosting technology LTD
   type: vless
   server: 138.16.186.81
@@ -727,6 +718,42 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: www.ya.ru
+- name: 🇲🇾166Mb | GB Network Solutions Sdn Bhd
+  type: vless
+  server: 87.76.160.67
+  port: 443
+  uuid: 137136bb-2da0-4838-bfa4-15b2fb6e0963
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: my.cdn-global.pro
+- name: 🌐64Mb | 🇬🇧 vl-re-ra 260712-121414.388
+  type: vless
+  server: 138.124.113.18
+  port: 443
+  uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: iamsterdam.com
+- name: 🇷🇺423Mb | Kviktel
+  type: vless
+  server: 176.109.85.77
+  port: 10443
+  uuid: f6653e2d-5d7d-476e-8f97-2ae777151a80
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 54.img.avito.st
+- name: 🇺🇸91Mb | Servhost Group
+  type: vless
+  server: xnod3x.artemida.live
+  port: 8443
+  uuid: 5e9709cb-bfc3-da2b-a8e1-7beea7dd72d8
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: xnod3x.artemida.live
 - name: 🇷🇺77Mb | Hosting technology LTD
   type: vless
   server: 138.16.186.81
@@ -736,24 +763,6 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: www.ya.ru
-- name: 🌐69Mb | 🇷🇺 Russia *CIDR YA
-  type: vless
-  server: 51.250.0.174
-  port: 443
-  uuid: 21453ee3-0bd0-48de-92a8-25e573e596af
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: 5post-gate.x5.ru
-- name: 🌐69Mb | @DeltaKroneckerGithub
-  type: vless
-  server: 51.250.0.174
-  port: 443
-  uuid: 468d31fd-4d87-4a70-9295-8441798060cd
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ads.x5.ru
 - name: 🇩🇪248Mb | Hetzner
   type: vless
   server: 176.109.85.77
@@ -772,15 +781,24 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: api-maps.yandex.ru
-- name: 🇯🇵115Mb | Oracle Cloud
+- name: 🇷🇺63Mb | JSC IOT
   type: vless
-  server: 152.69.195.67
-  port: 47878
-  uuid: eb8613e3-8393-4cff-a3ad-6501fd4adc63
+  server: 155.212.168.164
+  port: 443
+  uuid: 4392b776-41a2-4300-b545-a3d2724b605b
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: 152.69.195.67
+  sni: msk-cloud.landcode.online
+- name: 🇷🇺96Mb | YandexCloud
+  type: vless
+  server: 51.250.0.174
+  port: 443
+  uuid: d4f7932c-0c5b-40aa-a41d-7fd4112cd4b0
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ads.x5.ru
 - name: 🇷🇺61Mb | Hosting technology LTD
   type: vless
   server: 138.16.186.81
@@ -790,6 +808,24 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: vk.com
+- name: 🇷🇺61Mb | YandexCloud
+  type: vless
+  server: 51.250.0.174
+  port: 443
+  uuid: 21453ee3-0bd0-48de-92a8-25e573e596af
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ads.x5.ru
+- name: 🇯🇵115Mb | Oracle Cloud
+  type: vless
+  server: 152.69.195.67
+  port: 47878
+  uuid: eb8613e3-8393-4cff-a3ad-6501fd4adc63
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 152.69.195.67
 - name: 🇷🇺67Mb | YandexCloud
   type: vless
   server: 51.250.0.174
@@ -799,6 +835,24 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: ads.x5.ru
+- name: 🇷🇺82Mb | Global Internet Solutions
+  type: vless
+  server: 45.143.203.21
+  port: 443
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: j.6sc.co
+- name: 🇯🇵68Mb | SAKURA Internet
+  type: vless
+  server: 160.16.220.197
+  port: 1443
+  uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.amazon.com
 - name: 🇷🇺100Mb | Global Internet Solutions
   type: vless
   server: 45.143.203.21
@@ -808,15 +862,6 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: j.6sc.co
-- name: 🌐78Mb | @DeltaKroneckerGithub
-  type: vless
-  server: 31.76.21.58
-  port: 57176
-  uuid: 6395bc01-f320-4327-94a4-7f523e96b5dc
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.amd.com
 - name: 🇫🇷77Mb | Servhost Group
   type: vless
   server: xnod4x.artemida.live
@@ -829,24 +874,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: ''
-- name: 🇷🇺82Mb | Global Internet Solutions
-  type: vless
-  server: 45.143.203.21
-  port: 443
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: j.6sc.co
-- name: 🇷🇺61Mb | YandexCloud
-  type: vless
-  server: 51.250.0.174
-  port: 443
-  uuid: 21453ee3-0bd0-48de-92a8-25e573e596af
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ads.x5.ru
 - name: 🇫🇮73Mb | Aeza Group
   type: vless
   server: edge-ru0106.ru.dnsstatic.net
@@ -856,24 +883,6 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: yastatic.net
-- name: 🇯🇵68Mb | SAKURA Internet
-  type: vless
-  server: 160.16.220.197
-  port: 1443
-  uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.amazon.com
-- name: 🇺🇸69Mb | BL Networks
-  type: vless
-  server: cdn-99bb00.sg.dnsstatic.net
-  port: 40443
-  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: deepl.com
 - name: 🇲🇾71Mb | GB Network Solutions Sdn Bhd
   type: vless
   server: 87.76.160.67
@@ -892,221 +901,245 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: yahoo.com
-- name: 🇺🇸108Mb | U1 Digital Services
+- name: 🇺🇸245Mb | BL Networks
   type: vless
-  server: westmusic.ojcenter.com
-  port: 3468
-  uuid: a09b6dfa-e48a-0d75-bcad-df385fa5b73a
+  server: 149.248.77.106
+  port: 40443
+  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: telewebion.ir
-- name: 🇺🇸219Mb | Servhost Group
+  sni: deepl.com
+- name: 🌐69Mb | 🇷🇺 Russia *CIDR YA
   type: vless
-  server: 150.241.75.170
+  server: 51.250.0.174
   port: 443
-  uuid: c390be4b-00b5-4583-93f2-bbc099b8e7f1
+  uuid: 21453ee3-0bd0-48de-92a8-25e573e596af
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: www.yandex.ru
+  sni: 5post-gate.x5.ru
+- name: 🌐69Mb | @DeltaKroneckerGithub
+  type: vless
+  server: 51.250.0.174
+  port: 443
+  uuid: 468d31fd-4d87-4a70-9295-8441798060cd
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ads.x5.ru
+- name: 🇺🇸69Mb | BL Networks
+  type: vless
+  server: cdn-99bb00.sg.dnsstatic.net
+  port: 40443
+  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: deepl.com
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇩🇪538Mb | Hetzner
+  - 🌐734Mb | OpenRay 🇨🇦 CA-22468
   - 🇫🇷546Mb | OVH
+  - 🇫🇷308Mb | OVH
   - 🇫🇷426Mb | OVH
   - 🇫🇷391Mb | OVH
-  - 🇩🇪383Mb | Hetzner
-  - 🇫🇷308Mb | OVH
   - 🇫🇷408Mb | OVH
-  - 🌐734Mb | OpenRay 🇨🇦 CA-22468
   - 🇫🇷491Mb | OVH
   - 🌐517Mb | filembad-345
+  - 🇩🇪538Mb | Hetzner
+  - 🇩🇪383Mb | Hetzner
   - 🇺🇸205Mb | BL Networks
-  - 🌐499Mb | 🇳🇱 247 Нидерланды @vpnobhodrub
   - 🌐570Mb | 🔒 VL-TCP-RLT 🇬🇧 GB-67.159.56.5
+  - 🌐499Mb | 🇳🇱 247 Нидерланды @vpnobhodrub
+  - 🌐133Mb | @DeltaKroneckerGithub
   - 🇫🇮478Mb | Hetzner
-  - 🇫🇷193Mb | Hostkey Bv
-  - 🇫🇷287Mb | Hostkey Bv
+  - 🇩🇪416Mb | Global Connectivity Solutions Llp
   - 🇫🇷312Mb | Hostkey Bv
-  - 🇸🇪378Mb | Aeza Group
-  - 🇸🇪251Mb | Aeza Group
+  - 🇫🇷287Mb | Hostkey Bv
   - 🇸🇪286Mb | Aeza Group
   - 🇸🇪239Mb | Aeza Group
+  - 🇫🇷193Mb | Hostkey Bv
   - 🇬🇧197Mb | Aeza Group
-  - 🇫🇮175Mb | Aeza Group
+  - 🇸🇪251Mb | Aeza Group
   - 🌐325Mb | @DeltaKroneckerGithub
-  - 🇫🇷170Mb | Aeza Group
-  - 🇦🇹203Mb | Aeza Group
-  - 🇫🇷151Mb | Aeza Group
-  - 🇮🇷136Mb | NetCrafters OU
-  - 🇦🇹199Mb | Aeza Group
-  - 🇫🇮370Mb | Aeza Group
-  - 🇦🇹166Mb | Aeza Group
-  - 🇵🇱371Mb | H2nexus
+  - 🇫🇮175Mb | Aeza Group
+  - 🇸🇪378Mb | Aeza Group
   - 🇫🇮447Mb | Aeza Group
-  - 🌐162Mb | 4Sarina-9689
-  - 🇫🇮326Mb | Aeza Group
+  - 🇫🇮370Mb | Aeza Group
   - 🇺🇸160Mb | SIA GOOD
-  - 🇸🇪146Mb | Aeza Group
+  - 🇦🇹199Mb | Aeza Group
+  - 🇫🇮326Mb | Aeza Group
+  - 🇦🇹203Mb | Aeza Group
+  - 🇮🇷136Mb | NetCrafters OU
+  - 🇦🇹166Mb | Aeza Group
   - 🇩🇪155Mb | Ultahost
+  - 🌐162Mb | 4Sarina-9689
+  - 🇫🇷151Mb | Aeza Group
+  - 🇫🇷170Mb | Aeza Group
   - 🇩🇪278Mb | QWINS LTD
+  - 🇫🇮226Mb | Inios Oy
+  - 🇺🇸219Mb | Servhost Group
+  - 🇫🇮176Mb | Aeza Group
   - 🇩🇪185Mb | QWINS LTD
   - 🇹🇷221Mb | Sh Online Iletisim Anonim Sirketi
-  - 🇫🇮176Mb | Aeza Group
-  - 🇫🇮226Mb | Inios Oy
   - 🇹🇷210Mb | Sh Online Iletisim Anonim Sirketi
+  - 🇵🇱371Mb | H2nexus
   - 🇫🇮165Mb | Aeza Group
-  - 🇷🇺233Mb | Hosting technology LTD
-  - 🌐297Mb | Lite ⚪Россия🇷🇺 @FreeCFGHub
-  - 🇷🇺180Mb | Hosting technology LTD
   - 🇷🇺186Mb | Hosting technology LTD
-  - 🇺🇸446Mb | Servhost Group
-  - 🇺🇸327Mb | Servhost Group
+  - 🇷🇺180Mb | Hosting technology LTD
+  - 🇸🇪146Mb | Aeza Group
+  - 🇷🇺233Mb | Hosting technology LTD
   - 🇷🇺186Mb | Hosting technology LTD (2)
   - 🌐303Mb | OpenRay 🇺🇸 US-20950
-  - 🇳🇱130Mb | Servers Tech Fzco
-  - 🌐131Mb | 🇫🇮 202 Финляндия @vpnobhodrubo
+  - 🌐297Mb | Lite ⚪Россия🇷🇺 @FreeCFGHub
   - 🇷🇺160Mb | Hosting technology LTD
-  - 🇫🇷120Mb | Aeza Group
-  - 🇫🇷90Mb | Hostkey Bv
+  - 🇳🇱130Mb | Servers Tech Fzco
   - 🇮🇷120Mb | NetCrafters OU
+  - 🌐131Mb | 🇫🇮 202 Финляндия @vpnobhodrubo
+  - 🇫🇷120Mb | Aeza Group
+  - 🇺🇸327Mb | Servhost Group
   - 🇫🇮86Mb | Hetzner
   - 🇫🇮109Mb | Aeza Group
+  - 🇺🇸446Mb | Servhost Group
+  - 🇫🇷90Mb | Hostkey Bv
   - 🇫🇷115Mb | Aeza Group
   - 🇮🇷112Mb | NetCrafters OU
   - 🇳🇱76Mb | ExpressHost
-  - 🇦🇹88Mb | Aeza Group
   - 🇫🇷64Mb | Dyjix SAS
-  - 🌐64Mb | 🇬🇧 vl-re-ra 260712-121414.388
+  - 🌐78Mb | @DeltaKroneckerGithub
+  - 🇦🇹88Mb | Aeza Group
   - 🇸🇪59Mb | Akamai Connected Cloud
-  - 🇺🇸91Mb | Servhost Group
   - 🇫🇷63Mb | Aeza Group
-  - 🇲🇾166Mb | GB Network Solutions Sdn Bhd
-  - 🇷🇺423Mb | Kviktel
-  - 🇷🇺96Mb | YandexCloud
   - 🇷🇺84Mb | Hosting technology LTD
+  - 🇲🇾166Mb | GB Network Solutions Sdn Bhd
+  - 🌐64Mb | 🇬🇧 vl-re-ra 260712-121414.388
+  - 🇷🇺423Mb | Kviktel
+  - 🇺🇸91Mb | Servhost Group
   - 🇷🇺77Mb | Hosting technology LTD
-  - 🌐69Mb | 🇷🇺 Russia *CIDR YA
-  - 🌐69Mb | @DeltaKroneckerGithub
   - 🇩🇪248Mb | Hetzner
   - 🇳🇱62Mb | PUSHPKT OU
-  - 🇯🇵115Mb | Oracle Cloud
+  - 🇷🇺63Mb | JSC IOT
+  - 🇷🇺96Mb | YandexCloud
   - 🇷🇺61Mb | Hosting technology LTD
-  - 🇷🇺67Mb | YandexCloud
-  - 🇷🇺100Mb | Global Internet Solutions
-  - 🌐78Mb | @DeltaKroneckerGithub
-  - 🇫🇷77Mb | Servhost Group
-  - 🇷🇺82Mb | Global Internet Solutions
   - 🇷🇺61Mb | YandexCloud
-  - 🇫🇮73Mb | Aeza Group
+  - 🇯🇵115Mb | Oracle Cloud
+  - 🇷🇺67Mb | YandexCloud
+  - 🇷🇺82Mb | Global Internet Solutions
   - 🇯🇵68Mb | SAKURA Internet
-  - 🇺🇸69Mb | BL Networks
+  - 🇷🇺100Mb | Global Internet Solutions
+  - 🇫🇷77Mb | Servhost Group
+  - 🇫🇮73Mb | Aeza Group
   - 🇲🇾71Mb | GB Network Solutions Sdn Bhd
   - 🇩🇪103Mb | Layer7 Networks GmbH
-  - 🇺🇸108Mb | U1 Digital Services
-  - 🇺🇸219Mb | Servhost Group
+  - 🇺🇸245Mb | BL Networks
+  - 🌐69Mb | 🇷🇺 Russia *CIDR YA
+  - 🌐69Mb | @DeltaKroneckerGithub
+  - 🇺🇸69Mb | BL Networks
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇩🇪538Mb | Hetzner
+  - 🌐734Mb | OpenRay 🇨🇦 CA-22468
   - 🇫🇷546Mb | OVH
+  - 🇫🇷308Mb | OVH
   - 🇫🇷426Mb | OVH
   - 🇫🇷391Mb | OVH
-  - 🇩🇪383Mb | Hetzner
-  - 🇫🇷308Mb | OVH
   - 🇫🇷408Mb | OVH
-  - 🌐734Mb | OpenRay 🇨🇦 CA-22468
   - 🇫🇷491Mb | OVH
   - 🌐517Mb | filembad-345
+  - 🇩🇪538Mb | Hetzner
+  - 🇩🇪383Mb | Hetzner
   - 🇺🇸205Mb | BL Networks
-  - 🌐499Mb | 🇳🇱 247 Нидерланды @vpnobhodrub
   - 🌐570Mb | 🔒 VL-TCP-RLT 🇬🇧 GB-67.159.56.5
+  - 🌐499Mb | 🇳🇱 247 Нидерланды @vpnobhodrub
+  - 🌐133Mb | @DeltaKroneckerGithub
   - 🇫🇮478Mb | Hetzner
-  - 🇫🇷193Mb | Hostkey Bv
-  - 🇫🇷287Mb | Hostkey Bv
+  - 🇩🇪416Mb | Global Connectivity Solutions Llp
   - 🇫🇷312Mb | Hostkey Bv
-  - 🇸🇪378Mb | Aeza Group
-  - 🇸🇪251Mb | Aeza Group
+  - 🇫🇷287Mb | Hostkey Bv
   - 🇸🇪286Mb | Aeza Group
   - 🇸🇪239Mb | Aeza Group
+  - 🇫🇷193Mb | Hostkey Bv
   - 🇬🇧197Mb | Aeza Group
-  - 🇫🇮175Mb | Aeza Group
+  - 🇸🇪251Mb | Aeza Group
   - 🌐325Mb | @DeltaKroneckerGithub
-  - 🇫🇷170Mb | Aeza Group
-  - 🇦🇹203Mb | Aeza Group
-  - 🇫🇷151Mb | Aeza Group
-  - 🇮🇷136Mb | NetCrafters OU
-  - 🇦🇹199Mb | Aeza Group
-  - 🇫🇮370Mb | Aeza Group
-  - 🇦🇹166Mb | Aeza Group
-  - 🇵🇱371Mb | H2nexus
+  - 🇫🇮175Mb | Aeza Group
+  - 🇸🇪378Mb | Aeza Group
   - 🇫🇮447Mb | Aeza Group
-  - 🌐162Mb | 4Sarina-9689
-  - 🇫🇮326Mb | Aeza Group
+  - 🇫🇮370Mb | Aeza Group
   - 🇺🇸160Mb | SIA GOOD
-  - 🇸🇪146Mb | Aeza Group
+  - 🇦🇹199Mb | Aeza Group
+  - 🇫🇮326Mb | Aeza Group
+  - 🇦🇹203Mb | Aeza Group
+  - 🇮🇷136Mb | NetCrafters OU
+  - 🇦🇹166Mb | Aeza Group
   - 🇩🇪155Mb | Ultahost
+  - 🌐162Mb | 4Sarina-9689
+  - 🇫🇷151Mb | Aeza Group
+  - 🇫🇷170Mb | Aeza Group
   - 🇩🇪278Mb | QWINS LTD
+  - 🇫🇮226Mb | Inios Oy
+  - 🇺🇸219Mb | Servhost Group
+  - 🇫🇮176Mb | Aeza Group
   - 🇩🇪185Mb | QWINS LTD
   - 🇹🇷221Mb | Sh Online Iletisim Anonim Sirketi
-  - 🇫🇮176Mb | Aeza Group
-  - 🇫🇮226Mb | Inios Oy
   - 🇹🇷210Mb | Sh Online Iletisim Anonim Sirketi
+  - 🇵🇱371Mb | H2nexus
   - 🇫🇮165Mb | Aeza Group
-  - 🇷🇺233Mb | Hosting technology LTD
-  - 🌐297Mb | Lite ⚪Россия🇷🇺 @FreeCFGHub
-  - 🇷🇺180Mb | Hosting technology LTD
   - 🇷🇺186Mb | Hosting technology LTD
-  - 🇺🇸446Mb | Servhost Group
-  - 🇺🇸327Mb | Servhost Group
+  - 🇷🇺180Mb | Hosting technology LTD
+  - 🇸🇪146Mb | Aeza Group
+  - 🇷🇺233Mb | Hosting technology LTD
   - 🇷🇺186Mb | Hosting technology LTD (2)
   - 🌐303Mb | OpenRay 🇺🇸 US-20950
-  - 🇳🇱130Mb | Servers Tech Fzco
-  - 🌐131Mb | 🇫🇮 202 Финляндия @vpnobhodrubo
+  - 🌐297Mb | Lite ⚪Россия🇷🇺 @FreeCFGHub
   - 🇷🇺160Mb | Hosting technology LTD
-  - 🇫🇷120Mb | Aeza Group
-  - 🇫🇷90Mb | Hostkey Bv
+  - 🇳🇱130Mb | Servers Tech Fzco
   - 🇮🇷120Mb | NetCrafters OU
+  - 🌐131Mb | 🇫🇮 202 Финляндия @vpnobhodrubo
+  - 🇫🇷120Mb | Aeza Group
+  - 🇺🇸327Mb | Servhost Group
   - 🇫🇮86Mb | Hetzner
   - 🇫🇮109Mb | Aeza Group
+  - 🇺🇸446Mb | Servhost Group
+  - 🇫🇷90Mb | Hostkey Bv
   - 🇫🇷115Mb | Aeza Group
   - 🇮🇷112Mb | NetCrafters OU
   - 🇳🇱76Mb | ExpressHost
-  - 🇦🇹88Mb | Aeza Group
   - 🇫🇷64Mb | Dyjix SAS
-  - 🌐64Mb | 🇬🇧 vl-re-ra 260712-121414.388
+  - 🌐78Mb | @DeltaKroneckerGithub
+  - 🇦🇹88Mb | Aeza Group
   - 🇸🇪59Mb | Akamai Connected Cloud
-  - 🇺🇸91Mb | Servhost Group
   - 🇫🇷63Mb | Aeza Group
-  - 🇲🇾166Mb | GB Network Solutions Sdn Bhd
-  - 🇷🇺423Mb | Kviktel
-  - 🇷🇺96Mb | YandexCloud
   - 🇷🇺84Mb | Hosting technology LTD
+  - 🇲🇾166Mb | GB Network Solutions Sdn Bhd
+  - 🌐64Mb | 🇬🇧 vl-re-ra 260712-121414.388
+  - 🇷🇺423Mb | Kviktel
+  - 🇺🇸91Mb | Servhost Group
   - 🇷🇺77Mb | Hosting technology LTD
-  - 🌐69Mb | 🇷🇺 Russia *CIDR YA
-  - 🌐69Mb | @DeltaKroneckerGithub
   - 🇩🇪248Mb | Hetzner
   - 🇳🇱62Mb | PUSHPKT OU
-  - 🇯🇵115Mb | Oracle Cloud
+  - 🇷🇺63Mb | JSC IOT
+  - 🇷🇺96Mb | YandexCloud
   - 🇷🇺61Mb | Hosting technology LTD
-  - 🇷🇺67Mb | YandexCloud
-  - 🇷🇺100Mb | Global Internet Solutions
-  - 🌐78Mb | @DeltaKroneckerGithub
-  - 🇫🇷77Mb | Servhost Group
-  - 🇷🇺82Mb | Global Internet Solutions
   - 🇷🇺61Mb | YandexCloud
-  - 🇫🇮73Mb | Aeza Group
+  - 🇯🇵115Mb | Oracle Cloud
+  - 🇷🇺67Mb | YandexCloud
+  - 🇷🇺82Mb | Global Internet Solutions
   - 🇯🇵68Mb | SAKURA Internet
-  - 🇺🇸69Mb | BL Networks
+  - 🇷🇺100Mb | Global Internet Solutions
+  - 🇫🇷77Mb | Servhost Group
+  - 🇫🇮73Mb | Aeza Group
   - 🇲🇾71Mb | GB Network Solutions Sdn Bhd
   - 🇩🇪103Mb | Layer7 Networks GmbH
-  - 🇺🇸108Mb | U1 Digital Services
-  - 🇺🇸219Mb | Servhost Group
+  - 🇺🇸245Mb | BL Networks
+  - 🌐69Mb | 🇷🇺 Russia *CIDR YA
+  - 🌐69Mb | @DeltaKroneckerGithub
+  - 🇺🇸69Mb | BL Networks
 rules:
 - MATCH,🌍 Прокси
