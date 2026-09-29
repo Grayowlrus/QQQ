@@ -1,4 +1,4 @@
-# Обновлено: 2026-09-29 19:31 UTC
+# Обновлено: 2026-09-29 23:20 UTC
 # Всего в источнике: 17
 # Живых серверов: 12
 # Источник: 26.txt
@@ -13,15 +13,6 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: subscribe.betust.net
-- name: 🇸🇪682Mb | Oracle Cloud
-  type: vless
-  server: 51.170.181.33
-  port: 62145
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: 51.170.181.33
 - name: 🇳🇱124Mb | NovoServe BV
   type: vless
   server: 89.105.197.202
@@ -40,15 +31,6 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: amazon.de
-- name: 🇦🇪112Mb | HOSTES LTD
-  type: vless
-  server: 151.241.166.137
-  port: 443
-  uuid: 80f72027-2201-4541-9abb-7070c9b0869e
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: 151.241.166.137.sslip.io
 - name: 🇱🇹89Mb | UAB Interneto vizija
   type: vless
   server: 62.77.158.1
@@ -58,42 +40,24 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: online.1c.ru
-- name: 🇺🇸119Mb | UAB Cherry Servers
+- name: 🇦🇪112Mb | HOSTES LTD
   type: vless
-  server: subscribe.betust.net
-  port: 443
-  uuid: 94877739-3af6-4fbb-85b6-ca6fe86c7696
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: subscribe.betust.net
-- name: 🇦🇪58Mb | HOSTES LTD
-  type: vless
-  server: 151.241.166.137.sslip.io
+  server: 151.241.166.137
   port: 443
   uuid: 80f72027-2201-4541-9abb-7070c9b0869e
   udp: true
   skip-cert-verify: true
   encryption: none
   sni: 151.241.166.137.sslip.io
-- name: 🇩🇪135Mb | Eons Data Communications Limited
+- name: 🇦🇪77Mb | Oracle Cloud
   type: vless
-  server: de-06.vacvps.com
-  port: 443
-  uuid: 84a3061b-3573-4a3c-a631-f26c31209268
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: de-06.vacvps.com
-- name: 🇷🇺110Mb | Jsc timeweb
-  type: vless
-  server: ru-test.omuservice.tech
+  server: 139.185.44.42
   port: 8443
-  uuid: 6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5
+  uuid: 1a246091-937d-4e23-8e54-dd47da8360e1
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: www.ozone.nl
+  sni: www.microsoft.com
 - name: 🇦🇪131Mb | HOSTES LTD
   type: vless
   server: germ2.serverslocal.ru
@@ -112,22 +76,58 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: ger1.serverslocal.ru
+- name: 🇦🇪58Mb | HOSTES LTD
+  type: vless
+  server: 151.241.166.137.sslip.io
+  port: 443
+  uuid: 80f72027-2201-4541-9abb-7070c9b0869e
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 151.241.166.137.sslip.io
+- name: 🇷🇺110Mb | Jsc timeweb
+  type: vless
+  server: ru-test.omuservice.tech
+  port: 8443
+  uuid: 6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.ozone.nl
+- name: 🇩🇪135Mb | Eons Data Communications Limited
+  type: vless
+  server: de-06.vacvps.com
+  port: 443
+  uuid: 84a3061b-3573-4a3c-a631-f26c31209268
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: de-06.vacvps.com
+- name: 🇺🇸119Mb | UAB Cherry Servers
+  type: vless
+  server: subscribe.betust.net
+  port: 443
+  uuid: 94877739-3af6-4fbb-85b6-ca6fe86c7696
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: subscribe.betust.net
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
   - 🇺🇸97Mb | UAB Cherry Servers
-  - 🇸🇪682Mb | Oracle Cloud
   - 🇳🇱124Mb | NovoServe BV
   - 🇳🇱190Mb | Aeza Group
-  - 🇦🇪112Mb | HOSTES LTD
   - 🇱🇹89Mb | UAB Interneto vizija
-  - 🇺🇸119Mb | UAB Cherry Servers
-  - 🇦🇪58Mb | HOSTES LTD
-  - 🇩🇪135Mb | Eons Data Communications Limited
-  - 🇷🇺110Mb | Jsc timeweb
+  - 🇦🇪112Mb | HOSTES LTD
+  - 🇦🇪77Mb | Oracle Cloud
   - 🇦🇪131Mb | HOSTES LTD
   - 🇦🇪96Mb | HOSTES LTD
+  - 🇦🇪58Mb | HOSTES LTD
+  - 🇷🇺110Mb | Jsc timeweb
+  - 🇩🇪135Mb | Eons Data Communications Limited
+  - 🇺🇸119Mb | UAB Cherry Servers
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
@@ -135,16 +135,16 @@ proxy-groups:
   proxies:
   - 🚀 Авто-выбор
   - 🇺🇸97Mb | UAB Cherry Servers
-  - 🇸🇪682Mb | Oracle Cloud
   - 🇳🇱124Mb | NovoServe BV
   - 🇳🇱190Mb | Aeza Group
-  - 🇦🇪112Mb | HOSTES LTD
   - 🇱🇹89Mb | UAB Interneto vizija
-  - 🇺🇸119Mb | UAB Cherry Servers
-  - 🇦🇪58Mb | HOSTES LTD
-  - 🇩🇪135Mb | Eons Data Communications Limited
-  - 🇷🇺110Mb | Jsc timeweb
+  - 🇦🇪112Mb | HOSTES LTD
+  - 🇦🇪77Mb | Oracle Cloud
   - 🇦🇪131Mb | HOSTES LTD
   - 🇦🇪96Mb | HOSTES LTD
+  - 🇦🇪58Mb | HOSTES LTD
+  - 🇷🇺110Mb | Jsc timeweb
+  - 🇩🇪135Mb | Eons Data Communications Limited
+  - 🇺🇸119Mb | UAB Cherry Servers
 rules:
 - MATCH,🌍 Прокси
