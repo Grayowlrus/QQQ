@@ -1,6 +1,6 @@
-# Обновлено: 2026-10-15 18:49 UTC
+# Обновлено: 2026-10-15 21:53 UTC
 # Всего в источнике: 32
-# Живых серверов: 29
+# Живых серверов: 31
 # Источник: 26.txt
 
 proxies:
@@ -34,15 +34,39 @@ proxies:
     path: /ws
     headers:
       Host: fancy-mouse-6aff.wixit71180.workers.dev
-- name: 🇩🇪66Mb | Senko Digital
+- name: 🇫🇷141Mb | OVH SAS
   type: vless
-  server: ragnarok-vpn.ru
-  port: 8443
-  uuid: b7df9363-087b-48f7-a4ca-6e988ebf7f35
+  server: skycitybox-bidarbash.sbs
+  port: 443
+  uuid: 2bdcf0ac-f84e-471f-98dc-a1807acab1cb
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: amd.com
+  tls: true
+  sni: skycitybox-bidarbash.sbs
+  network: ws
+  ws-opts:
+    path: /zoodi
+    headers:
+      Host: skycitybox-bidarbash.sbs
+- name: 🇩🇪116Mb | Senko Digital
+  type: vless
+  server: 177.1.186.43
+  port: 443
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: de5.srv.vbuste-bot.com
+- name: 🇩🇪73Mb | Senko Digital
+  type: vless
+  server: 64.188.70.56
+  port: 443
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: de2.balancer.vbuste-bot.com
 - name: 🇬🇧137Mb | Eugamehost
   type: vless
   server: 195.72.166.251
@@ -52,6 +76,15 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: www.lloydsbankinggroup.com
+- name: 🇳🇱115Mb | RoyaleHosting BV
+  type: vless
+  server: 162.35.242.252
+  port: 443
+  uuid: e3e9805a-6c8b-4edd-8ee8-621df79806eb
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: nl.aksay.pro
 - name: 🇫🇷147Mb | OVH SAS
   type: vless
   server: 51.255.166.202
@@ -80,15 +113,6 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: nl-5.zvcorp24.com
-- name: 🇳🇱115Mb | RoyaleHosting BV
-  type: vless
-  server: 162.35.242.252
-  port: 443
-  uuid: e3e9805a-6c8b-4edd-8ee8-621df79806eb
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: nl.aksay.pro
 - name: 🇩🇪69Mb | DpkgSoft International Limited
   type: vless
   server: 2.26.108.148
@@ -128,6 +152,15 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: www.cloudflare.com
+- name: 🇵🇱154Mb | H2nexus Cloud Services - Fzco
+  type: vless
+  server: 144.31.4.234
+  port: 443
+  uuid: 8a9c586c-4b2c-49e5-9e78-97408bf58500
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: direct-nl.bachidze.com
 - name: 🇩🇪95Mb | OVH SAS
   type: vless
   server: 31.56.197.32
@@ -143,79 +176,6 @@ proxies:
     path: /gropcdn
     headers:
       Host: cdn.topingr.ir
-- name: 🇺🇸69Mb | Green Floid
-  type: vless
-  server: 45.132.177.37
-  port: 443
-  uuid: 388ccac9-2adf-47ca-998c-15ca6899416c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: usa-in-ru.movietop24.site
-- name: 🇵🇱50Mb | Paul Sagov
-  type: vless
-  server: 193.233.230.64
-  port: 24443
-  uuid: 92e135b9-4c04-4e7e-8b28-d8074a202cf8
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: img.suzuki.lol
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇬🇧129Mb | Hostkey Bv
-  type: vless
-  server: 46.254.17.171
-  port: 14443
-  uuid: 8dc66819-a598-4857-a084-7f6d927399ef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: main-xhttp.g-kast.ru
-- name: 🇪🇸54Mb | Hostkey Bv
-  type: vless
-  server: 185.221.199.126
-  port: 10443
-  uuid: 92e135b9-4c04-4e7e-8b28-d8074a202cf8
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: assets.polina.lol
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇧🇬58Mb | Belcloud LTD
-  type: vless
-  server: 78.159.246.85
-  port: 8443
-  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: fitindoor.net
-- name: 🇩🇪58Mb | Hetzner Online GmbH
-  type: vless
-  server: 185.221.199.126
-  port: 39443
-  uuid: 92e135b9-4c04-4e7e-8b28-d8074a202cf8
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: static.polina.mom
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇵🇱154Mb | H2nexus Cloud Services - Fzco
-  type: vless
-  server: 144.31.4.234
-  port: 443
-  uuid: 8a9c586c-4b2c-49e5-9e78-97408bf58500
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: direct-nl.bachidze.com
 - name: 🇩🇪63Mb | Hetzner Online GmbH
   type: vless
   server: 193.233.230.62
@@ -228,15 +188,42 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
-- name: 🇵🇱67Mb | Kochedykov Egor Aleksandrovich
+- name: 🇩🇪58Mb | Hetzner Online GmbH
   type: vless
-  server: pl1.song69.fun
-  port: 21382
-  uuid: 408c51e8-9246-483d-ba73-34ab4e202eb9
+  server: 185.221.199.126
+  port: 39443
+  uuid: 92e135b9-4c04-4e7e-8b28-d8074a202cf8
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: metrika.yandex.ru
+  sni: static.polina.mom
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 🇪🇸54Mb | Hostkey Bv
+  type: vless
+  server: 185.221.199.126
+  port: 10443
+  uuid: 92e135b9-4c04-4e7e-8b28-d8074a202cf8
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: assets.polina.lol
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 🇵🇱50Mb | Paul Sagov
+  type: vless
+  server: 193.233.230.64
+  port: 24443
+  uuid: 92e135b9-4c04-4e7e-8b28-d8074a202cf8
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: img.suzuki.lol
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
 - name: 🇳🇱134Mb | Datagio Systems
   type: vless
   server: 94.228.166.86
@@ -246,21 +233,43 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: cdn-nl.cahmes.space
-- name: 🇫🇷141Mb | OVH SAS
+- name: 🇧🇬58Mb | Belcloud LTD
   type: vless
-  server: skycitybox-bidarbash.sbs
-  port: 443
-  uuid: 2bdcf0ac-f84e-471f-98dc-a1807acab1cb
+  server: 78.159.246.85
+  port: 8443
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: skycitybox-bidarbash.sbs
-  network: ws
-  ws-opts:
-    path: /zoodi
-    headers:
-      Host: skycitybox-bidarbash.sbs
+  sni: fitindoor.net
+- name: 🇨🇾180Mb | Edge Core FZE
+  type: vless
+  server: 185.22.234.233
+  port: 9443
+  uuid: 8dc66819-a598-4857-a084-7f6d927399ef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: main-xhttp.g-kast.ru
+- name: 🇺🇸69Mb | Green Floid
+  type: vless
+  server: 45.132.177.37
+  port: 443
+  uuid: 388ccac9-2adf-47ca-998c-15ca6899416c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: usa-in-ru.movietop24.site
+- name: 🇬🇧129Mb | Hostkey Bv
+  type: vless
+  server: 46.254.17.171
+  port: 14443
+  uuid: 8dc66819-a598-4857-a084-7f6d927399ef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: main-xhttp.g-kast.ru
 - name: 🇷🇴52Mb | Hostox Group Srl
   type: vless
   server: 185.22.234.233
@@ -270,6 +279,33 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: main-xhttp.g-kast.ru
+- name: 🇵🇱67Mb | Kochedykov Egor Aleksandrovich
+  type: vless
+  server: pl1.song69.fun
+  port: 21382
+  uuid: 408c51e8-9246-483d-ba73-34ab4e202eb9
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: metrika.yandex.ru
+- name: 🇵🇱62Mb | H2nexus Cloud Services - Fzco
+  type: vless
+  server: direct-nl.bachidze.com
+  port: 443
+  uuid: 8a9c586c-4b2c-49e5-9e78-97408bf58500
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: direct-nl.bachidze.com
+- name: 🇩🇪66Mb | Senko Digital
+  type: vless
+  server: ragnarok-vpn.ru
+  port: 8443
+  uuid: b7df9363-087b-48f7-a4ca-6e988ebf7f35
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: amd.com
 - name: 🇩🇪54Mb | DpkgSoft International Limited
   type: vless
   server: genode.nothikka.ru
@@ -282,66 +318,55 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
-- name: 🇨🇾180Mb | Edge Core FZE
+- name: 🇬🇧133Mb | Aeza Group
   type: vless
-  server: 185.22.234.233
-  port: 9443
-  uuid: 8dc66819-a598-4857-a084-7f6d927399ef
+  server: 213.176.92.168
+  port: 14430
+  uuid: ba52cc43-700d-4040-9444-29214c98e6e0
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: main-xhttp.g-kast.ru
-- name: 🇩🇪73Mb | Senko Digital
-  type: vless
-  server: 64.188.70.56
-  port: 443
-  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: de2.balancer.vbuste-bot.com
-- name: 🇵🇱62Mb | H2nexus Cloud Services - Fzco
-  type: vless
-  server: direct-nl.bachidze.com
-  port: 443
-  uuid: 8a9c586c-4b2c-49e5-9e78-97408bf58500
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: direct-nl.bachidze.com
+  sni: 213.176.92.168
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 213.176.92.168
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
   - 🇳🇱148Mb | Railway
   - 🇳🇱96Mb | Play2go International Limited
-  - 🇩🇪66Mb | Senko Digital
+  - 🇫🇷141Mb | OVH SAS
+  - 🇩🇪116Mb | Senko Digital
+  - 🇩🇪73Mb | Senko Digital
   - 🇬🇧137Mb | Eugamehost
+  - 🇳🇱115Mb | RoyaleHosting BV
   - 🇫🇷147Mb | OVH SAS
   - 🇷🇴112Mb | Interkvm Host Srl
   - 🇳🇱125Mb | HOSTES LTD
-  - 🇳🇱115Mb | RoyaleHosting BV
   - 🇩🇪69Mb | DpkgSoft International Limited
   - 🇦🇪133Mb | HOSTES LTD
   - 🇦🇪139Mb | HOSTES LTD
   - 🇮🇹92Mb | Route 95
-  - 🇩🇪95Mb | OVH SAS
-  - 🇺🇸69Mb | Green Floid
-  - 🇵🇱50Mb | Paul Sagov
-  - 🇬🇧129Mb | Hostkey Bv
-  - 🇪🇸54Mb | Hostkey Bv
-  - 🇧🇬58Mb | Belcloud LTD
-  - 🇩🇪58Mb | Hetzner Online GmbH
   - 🇵🇱154Mb | H2nexus Cloud Services - Fzco
+  - 🇩🇪95Mb | OVH SAS
   - 🇩🇪63Mb | Hetzner Online GmbH
-  - 🇵🇱67Mb | Kochedykov Egor Aleksandrovich
+  - 🇩🇪58Mb | Hetzner Online GmbH
+  - 🇪🇸54Mb | Hostkey Bv
+  - 🇵🇱50Mb | Paul Sagov
   - 🇳🇱134Mb | Datagio Systems
-  - 🇫🇷141Mb | OVH SAS
-  - 🇷🇴52Mb | Hostox Group Srl
-  - 🇩🇪54Mb | DpkgSoft International Limited
+  - 🇧🇬58Mb | Belcloud LTD
   - 🇨🇾180Mb | Edge Core FZE
-  - 🇩🇪73Mb | Senko Digital
+  - 🇺🇸69Mb | Green Floid
+  - 🇬🇧129Mb | Hostkey Bv
+  - 🇷🇴52Mb | Hostox Group Srl
+  - 🇵🇱67Mb | Kochedykov Egor Aleksandrovich
   - 🇵🇱62Mb | H2nexus Cloud Services - Fzco
+  - 🇩🇪66Mb | Senko Digital
+  - 🇩🇪54Mb | DpkgSoft International Limited
+  - 🇬🇧133Mb | Aeza Group
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
@@ -350,32 +375,34 @@ proxy-groups:
   - 🚀 Авто-выбор
   - 🇳🇱148Mb | Railway
   - 🇳🇱96Mb | Play2go International Limited
-  - 🇩🇪66Mb | Senko Digital
+  - 🇫🇷141Mb | OVH SAS
+  - 🇩🇪116Mb | Senko Digital
+  - 🇩🇪73Mb | Senko Digital
   - 🇬🇧137Mb | Eugamehost
+  - 🇳🇱115Mb | RoyaleHosting BV
   - 🇫🇷147Mb | OVH SAS
   - 🇷🇴112Mb | Interkvm Host Srl
   - 🇳🇱125Mb | HOSTES LTD
-  - 🇳🇱115Mb | RoyaleHosting BV
   - 🇩🇪69Mb | DpkgSoft International Limited
   - 🇦🇪133Mb | HOSTES LTD
   - 🇦🇪139Mb | HOSTES LTD
   - 🇮🇹92Mb | Route 95
-  - 🇩🇪95Mb | OVH SAS
-  - 🇺🇸69Mb | Green Floid
-  - 🇵🇱50Mb | Paul Sagov
-  - 🇬🇧129Mb | Hostkey Bv
-  - 🇪🇸54Mb | Hostkey Bv
-  - 🇧🇬58Mb | Belcloud LTD
-  - 🇩🇪58Mb | Hetzner Online GmbH
   - 🇵🇱154Mb | H2nexus Cloud Services - Fzco
+  - 🇩🇪95Mb | OVH SAS
   - 🇩🇪63Mb | Hetzner Online GmbH
-  - 🇵🇱67Mb | Kochedykov Egor Aleksandrovich
+  - 🇩🇪58Mb | Hetzner Online GmbH
+  - 🇪🇸54Mb | Hostkey Bv
+  - 🇵🇱50Mb | Paul Sagov
   - 🇳🇱134Mb | Datagio Systems
-  - 🇫🇷141Mb | OVH SAS
-  - 🇷🇴52Mb | Hostox Group Srl
-  - 🇩🇪54Mb | DpkgSoft International Limited
+  - 🇧🇬58Mb | Belcloud LTD
   - 🇨🇾180Mb | Edge Core FZE
-  - 🇩🇪73Mb | Senko Digital
+  - 🇺🇸69Mb | Green Floid
+  - 🇬🇧129Mb | Hostkey Bv
+  - 🇷🇴52Mb | Hostox Group Srl
+  - 🇵🇱67Mb | Kochedykov Egor Aleksandrovich
   - 🇵🇱62Mb | H2nexus Cloud Services - Fzco
+  - 🇩🇪66Mb | Senko Digital
+  - 🇩🇪54Mb | DpkgSoft International Limited
+  - 🇬🇧133Mb | Aeza Group
 rules:
 - MATCH,🌍 Прокси
