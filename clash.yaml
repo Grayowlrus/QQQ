@@ -1,97 +1,109 @@
-# Обновлено: 2026-10-17 17:41 UTC
+# Обновлено: 2026-10-17 19:57 UTC
 # Всего в источнике: 7
 # Живых серверов: 7
 # Источник: 26.txt
 
 proxies:
-- name: 🇦🇪122Mb | HOSTES LTD
+- name: 🇺🇸61Mb | Microsoft
   type: vless
-  server: 94.183.253.211
+  server: www.epicgames.com
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: openapi.pure-ai.us.ci
+- name: 🇫🇷119Mb | OVH SAS
+  type: vless
+  server: skycitybox-bidarbash.sbs
   port: 443
-  uuid: f8f23b48-57e6-4a87-9ff5-a086ec1b1803
+  uuid: 2bdcf0ac-f84e-471f-98dc-a1807acab1cb
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: germ2.serverslocal.ru
-- name: 🇦🇪131Mb | HOSTES LTD
+  tls: true
+  sni: skycitybox-bidarbash.sbs
+  network: ws
+  ws-opts:
+    path: /zoodi
+    headers:
+      Host: skycitybox-bidarbash.sbs
+- name: 🇩🇪56Mb | Hetzner Online GmbH
   type: vless
-  server: 151.241.166.137
-  port: 443
-  uuid: f8f23b48-57e6-4a87-9ff5-a086ec1b1803
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: 151.241.166.137.sslip.io
-- name: 🇦🇪96Mb | First Server Limited
-  type: vless
-  server: 157.228.128.69
-  port: 2053
-  uuid: cdc72f62-1697-4644-b5a9-ca6308584c86
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: max.ru
-- name: 🇫🇮53Mb | International Hosting Company Limited
-  type: vless
-  server: 77.91.78.83
-  port: 443
-  uuid: 5fefb7a2-a045-4409-a383-12bbfb111041
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: gif.art.phil-serv.shop
-- name: 🇧🇬66Mb | Belcloud LTD
-  type: vless
-  server: 78.159.246.179
+  server: 91.107.191.188
   port: 8443
-  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
+  uuid: 90c08c98-7ec8-4fab-da36-cf140d18c708
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: randomquaint.net
-- name: 🇵🇱72Mb | FDCserversnet
+  sni: host.taghvimtime.ir
+- name: 🇵🇱104Mb | ExpressHost
   type: vless
-  server: api.oblachnyservis.cc
+  server: 217.60.33.238
   port: 443
-  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: api.oblachnyservis.cc
-- name: 🇪🇪104Mb | ExpressHost
-  type: vless
-  server: ee-2e06d85dc0.shamanapp.online
-  port: 34451
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  uuid: 44be1ab8-f3f9-420c-a6ed-e4c249dd37a9
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: ee-2e06d85dc0.shamanapp.online
+  sni: pl-a50baf0d7f.shamanapp.online
+- name: 🇳🇱107Mb | Servers Tech Fzco
+  type: vless
+  server: tamiiiiz.aryan-sport.ir
+  port: 443
+  uuid: df2d6626-90e4-4599-a4da-d84352c4907d
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: dd.servicevip.cc.cd
+- name: 🇹🇷85Mb | Netlen Internet Hizmetleri Sti
+  type: vless
+  server: 206.1.100.148
+  port: 8443
+  uuid: 53373a04-2dd2-472e-af5d-d55fbffa7dbd
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: game.jafarghasemivip.ir
+- name: 🇫🇮71Mb | Aeza Group
+  type: vless
+  server: samgeez.online
+  port: 8443
+  uuid: a04c750d-3b71-493b-b2c1-6473ff1209dd
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: npdev.uk
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇦🇪122Mb | HOSTES LTD
-  - 🇦🇪131Mb | HOSTES LTD
-  - 🇦🇪96Mb | First Server Limited
-  - 🇫🇮53Mb | International Hosting Company Limited
-  - 🇧🇬66Mb | Belcloud LTD
-  - 🇵🇱72Mb | FDCserversnet
-  - 🇪🇪104Mb | ExpressHost
+  - 🇺🇸61Mb | Microsoft
+  - 🇫🇷119Mb | OVH SAS
+  - 🇩🇪56Mb | Hetzner Online GmbH
+  - 🇵🇱104Mb | ExpressHost
+  - 🇳🇱107Mb | Servers Tech Fzco
+  - 🇹🇷85Mb | Netlen Internet Hizmetleri Sti
+  - 🇫🇮71Mb | Aeza Group
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇦🇪122Mb | HOSTES LTD
-  - 🇦🇪131Mb | HOSTES LTD
-  - 🇦🇪96Mb | First Server Limited
-  - 🇫🇮53Mb | International Hosting Company Limited
-  - 🇧🇬66Mb | Belcloud LTD
-  - 🇵🇱72Mb | FDCserversnet
-  - 🇪🇪104Mb | ExpressHost
+  - 🇺🇸61Mb | Microsoft
+  - 🇫🇷119Mb | OVH SAS
+  - 🇩🇪56Mb | Hetzner Online GmbH
+  - 🇵🇱104Mb | ExpressHost
+  - 🇳🇱107Mb | Servers Tech Fzco
+  - 🇹🇷85Mb | Netlen Internet Hizmetleri Sti
+  - 🇫🇮71Mb | Aeza Group
 rules:
 - MATCH,🌍 Прокси
