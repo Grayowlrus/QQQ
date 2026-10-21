@@ -1,25 +1,10 @@
-# Обновлено: 2026-10-21 19:27 UTC
-# Всего в источнике: 7
-# Живых серверов: 7
+# Обновлено: 2026-10-21 22:35 UTC
+# Всего в источнике: 4
+# Живых серверов: 4
 # Источник: 26.txt
 
 proxies:
-- name: 🇺🇸60Mb | FranTech Solutions
-  type: vless
-  server: us2-2.998998.best
-  port: 443
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: server6.9966338.xyz
-  network: ws
-  ws-opts:
-    path: /fiughoieuhti834t90?ed=2560
-    headers:
-      Host: server6.9966338.xyz
-- name: 🇩🇪76Mb | Hetzner Online GmbH
+- name: 🇩🇪85Mb | Hetzner Online GmbH
   type: vless
   server: 188.114.97.6
   port: 443
@@ -34,16 +19,16 @@ proxies:
     path: /ws
     headers:
       Host: omid-3x-ui.abolfzlllll.us.ci
-- name: 🇸🇪61Mb | Fzco
+- name: 🇪🇪86Mb | Paul Sagov
   type: vless
-  server: 201.58.177.47
+  server: 132.243.66.17
   port: 443
-  uuid: e7a4decb-631e-422b-9749-7e8f54618308
+  uuid: 697386bb-c121-4933-b426-ad701cae90d8
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: cdn.jsdelivr.net
-- name: 🇪🇸85Mb | Green Floid
+  sni: ee.shapka-global.com
+- name: 🇪🇸80Mb | Green Floid
   type: vless
   server: 176.109.108.24
   port: 8443
@@ -52,62 +37,38 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: cdn-es.cahmes.space
-- name: 🇳🇱51Mb | Nurmukan Zhantorin
+- name: 🇳🇱83Mb | RoyaleHosting BV
   type: vless
-  server: nl.cachevault.net
-  port: 443
-  uuid: 2b9fc113-db27-4635-86d8-fa4556a5b7ba
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: nl.cachevault.net
-- name: 🇫🇮59Mb | Hostkey Bv
-  type: vless
-  server: uk9.998998.best
+  server: uk1-2.998998.best
   port: 443
   uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: server8.9966338.xyz
+  sni: server13.9966338.xyz
   network: ws
   ws-opts:
-    path: /fdtiouasopeiyre0r95y8?ed=2560
+    path: /resiouhgggggggggg?ed=2560fp=chrome
     headers:
-      Host: server8.9966338.xyz
-- name: 🇩🇪51Mb | Hetzner Online GmbH
-  type: vless
-  server: dcc59f522e6a9537.tunvi.w-ert.org
-  port: 32093
-  uuid: 3e16033f-71d8-417b-abea-7756253f3c3d
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.aparat.com
+      Host: server13.9966338.xyz
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇺🇸60Mb | FranTech Solutions
-  - 🇩🇪76Mb | Hetzner Online GmbH
-  - 🇸🇪61Mb | Fzco
-  - 🇪🇸85Mb | Green Floid
-  - 🇳🇱51Mb | Nurmukan Zhantorin
-  - 🇫🇮59Mb | Hostkey Bv
-  - 🇩🇪51Mb | Hetzner Online GmbH
+  - 🇩🇪85Mb | Hetzner Online GmbH
+  - 🇪🇪86Mb | Paul Sagov
+  - 🇪🇸80Mb | Green Floid
+  - 🇳🇱83Mb | RoyaleHosting BV
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇺🇸60Mb | FranTech Solutions
-  - 🇩🇪76Mb | Hetzner Online GmbH
-  - 🇸🇪61Mb | Fzco
-  - 🇪🇸85Mb | Green Floid
-  - 🇳🇱51Mb | Nurmukan Zhantorin
-  - 🇫🇮59Mb | Hostkey Bv
-  - 🇩🇪51Mb | Hetzner Online GmbH
+  - 🇩🇪85Mb | Hetzner Online GmbH
+  - 🇪🇪86Mb | Paul Sagov
+  - 🇪🇸80Mb | Green Floid
+  - 🇳🇱83Mb | RoyaleHosting BV
 rules:
 - MATCH,🌍 Прокси
