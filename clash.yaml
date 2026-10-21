@@ -1,43 +1,36 @@
-# Обновлено: 2026-10-21 10:24 UTC
-# Всего в источнике: 9
-# Живых серверов: 8
+# Обновлено: 2026-10-21 15:27 UTC
+# Всего в источнике: 5
+# Живых серверов: 5
 # Источник: 26.txt
 
 proxies:
-- name: 🇳🇱78Mb | RoyaleHosting BV
+- name: 🇳🇱50Mb | UAB Cherry Servers
   type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: server13.9966338.xyz
-  network: ws
-  ws-opts:
-    path: /resiouhgggggggggg?ed=2560fp=chrome
-    headers:
-      Host: server13.9966338.xyz
-- name: 🇩🇪62Mb | Ints Danebergs
-  type: vless
-  server: 177.1.194.5
-  port: 443
-  uuid: 0dab10de-af72-483b-b5d8-7f30cab4d35c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: de.ascl.dev
-- name: 🇱🇹67Mb | UAB Cherry Servers
-  type: vless
-  server: 84.32.215.96
+  server: 195.189.98.123
   port: 443
   uuid: 3b1fa839-2cb9-4511-9711-08800450aea3
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: app26.betust.net
-- name: 🇧🇬69Mb | Belcloud LTD
+  sni: api14.betust.net
+- name: 🇺🇸55Mb | FDCserversnet
+  type: vless
+  server: 50.7.95.171
+  port: 443
+  uuid: 3b1fa839-2cb9-4511-9711-08800450aea3
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: panel.betust.net
+- name: 🇩🇪66Mb | Hetzner Online GmbH
+  type: vless
+  server: 91.107.190.254
+  port: 23198
+  uuid: 322d8121-e82c-57a8-9d7d-0a83d4bdf0ff
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+- name: 🇧🇬65Mb | Belcloud LTD
   type: vless
   server: randomquaint.net
   port: 8443
@@ -47,74 +40,34 @@ proxies:
   encryption: none
   tls: true
   sni: randomquaint.net
-- name: 🇳🇱74Mb | UAB Cherry Servers
+- name: 🇪🇪60Mb | Paul Sagov
   type: vless
-  server: snow.betust.net
-  port: 443
-  uuid: 3b1fa839-2cb9-4511-9711-08800450aea3
+  server: frankenshtein.whitenw.net
+  port: 8445
+  uuid: 92e135b9-4c04-4e7e-8b28-d8074a202cf8
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: api37.betust.net
-- name: 🇪🇸63Mb | Orion Network Limited
-  type: vless
-  server: api.ferrin.uk
-  port: 443
-  uuid: 7d1a74fd-8a38-4a29-863f-5da53a9e557e
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: 7d1a74fd.ferrin.uk
-- name: 🇷🇴78Mb | Interkvm Host Srl
-  type: vless
-  server: sisipisi.yandex-api.com
-  port: 443
-  uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: sisipisi.yandex-api.com
-- name: 🇫🇮69Mb | Hostkey Bv
-  type: vless
-  server: uk9.998998.best
-  port: 443
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: server8.9966338.xyz
-  network: ws
-  ws-opts:
-    path: /fdtiouasopeiyre0r95y8?ed=2560
-    headers:
-      Host: server8.9966338.xyz
+  sni: passport.yandex.ru
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇳🇱78Mb | RoyaleHosting BV
-  - 🇩🇪62Mb | Ints Danebergs
-  - 🇱🇹67Mb | UAB Cherry Servers
-  - 🇧🇬69Mb | Belcloud LTD
-  - 🇳🇱74Mb | UAB Cherry Servers
-  - 🇪🇸63Mb | Orion Network Limited
-  - 🇷🇴78Mb | Interkvm Host Srl
-  - 🇫🇮69Mb | Hostkey Bv
+  - 🇳🇱50Mb | UAB Cherry Servers
+  - 🇺🇸55Mb | FDCserversnet
+  - 🇩🇪66Mb | Hetzner Online GmbH
+  - 🇧🇬65Mb | Belcloud LTD
+  - 🇪🇪60Mb | Paul Sagov
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇳🇱78Mb | RoyaleHosting BV
-  - 🇩🇪62Mb | Ints Danebergs
-  - 🇱🇹67Mb | UAB Cherry Servers
-  - 🇧🇬69Mb | Belcloud LTD
-  - 🇳🇱74Mb | UAB Cherry Servers
-  - 🇪🇸63Mb | Orion Network Limited
-  - 🇷🇴78Mb | Interkvm Host Srl
-  - 🇫🇮69Mb | Hostkey Bv
+  - 🇳🇱50Mb | UAB Cherry Servers
+  - 🇺🇸55Mb | FDCserversnet
+  - 🇩🇪66Mb | Hetzner Online GmbH
+  - 🇧🇬65Mb | Belcloud LTD
+  - 🇪🇪60Mb | Paul Sagov
 rules:
 - MATCH,🌍 Прокси
