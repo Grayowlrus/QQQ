@@ -1,10 +1,10 @@
-# Обновлено: 2026-10-22 17:26 UTC
-# Всего в источнике: 7
-# Живых серверов: 7
+# Обновлено: 2026-10-22 20:41 UTC
+# Всего в источнике: 4
+# Живых серверов: 4
 # Источник: 26.txt
 
 proxies:
-- name: 🇳🇱58Mb | Servers Tech Fzco
+- name: 🇳🇱48Mb | Servers Tech Fzco
   type: vless
   server: 104.21.91.244
   port: 443
@@ -14,89 +14,51 @@ proxies:
   encryption: none
   tls: true
   sni: tivon.servicevip.cc.cd
-- name: 🇳🇱66Mb | RoyaleHosting BV
+- name: 🇩🇪76Mb | UAB Cherry Servers
   type: vless
-  server: 188.114.97.6
+  server: 84.32.100.207
   port: 443
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  uuid: 3b1fa839-2cb9-4511-9711-08800450aea3
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: tickets.betust.net
+- name: 🇩🇪65Mb | PIO-Hosting GmbH
+  type: vless
+  server: upperdown.syntaxsquad.ir
+  port: 8447
+  uuid: 7c28eb69-ba3a-4bb8-8b20-23aa21ed6587
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: cdn.yektanet.com
+- name: 🇺🇸48Mb | FDCserversnet
+  type: vless
+  server: selek3.gamma-kvn.com
+  port: 443
+  uuid: d33cf5be-9e81-44e1-83ff-05d5377a478f
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: server13.9966338.xyz
-  network: ws
-  ws-opts:
-    path: /resiouhgggggggggg?ed=2560fp=chrome
-    headers:
-      Host: server13.9966338.xyz
-- name: 🇱🇹61Mb | UAB Cherry Servers
-  type: vless
-  server: 84.32.151.218
-  port: 443
-  uuid: 3b1fa839-2cb9-4511-9711-08800450aea3
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: admin.betust.net
-- name: 🇳🇱77Mb | Datagio Systems
-  type: vless
-  server: 94.228.166.86
-  port: 8443
-  uuid: 068c73f5-c2fc-4579-96be-6e37cfcf58ed
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cdn-nl.cahmes.space
-- name: 🇺🇦64Mb | NETH
-  type: vless
-  server: netx.smrtai.top
-  port: 443
-  uuid: d8b58872-cc25-4bb2-badb-b86399c075fa
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.cloudflare.com
-- name: 🇳🇱64Mb | UAB Cherry Servers
-  type: vless
-  server: game.betust.net
-  port: 443
-  uuid: 3b1fa839-2cb9-4511-9711-08800450aea3
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: api14.betust.net
-- name: 🇳🇱50Mb | Nurmukan Zhantorin
-  type: vless
-  server: nl.cachevault.net
-  port: 443
-  uuid: 2b9fc113-db27-4635-86d8-fa4556a5b7ba
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: nl.cachevault.net
+  sni: selek3.gamma-kvn.com
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇳🇱58Mb | Servers Tech Fzco
-  - 🇳🇱66Mb | RoyaleHosting BV
-  - 🇱🇹61Mb | UAB Cherry Servers
-  - 🇳🇱77Mb | Datagio Systems
-  - 🇺🇦64Mb | NETH
-  - 🇳🇱64Mb | UAB Cherry Servers
-  - 🇳🇱50Mb | Nurmukan Zhantorin
+  - 🇳🇱48Mb | Servers Tech Fzco
+  - 🇩🇪76Mb | UAB Cherry Servers
+  - 🇩🇪65Mb | PIO-Hosting GmbH
+  - 🇺🇸48Mb | FDCserversnet
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇳🇱58Mb | Servers Tech Fzco
-  - 🇳🇱66Mb | RoyaleHosting BV
-  - 🇱🇹61Mb | UAB Cherry Servers
-  - 🇳🇱77Mb | Datagio Systems
-  - 🇺🇦64Mb | NETH
-  - 🇳🇱64Mb | UAB Cherry Servers
-  - 🇳🇱50Mb | Nurmukan Zhantorin
+  - 🇳🇱48Mb | Servers Tech Fzco
+  - 🇩🇪76Mb | UAB Cherry Servers
+  - 🇩🇪65Mb | PIO-Hosting GmbH
+  - 🇺🇸48Mb | FDCserversnet
 rules:
 - MATCH,🌍 Прокси
