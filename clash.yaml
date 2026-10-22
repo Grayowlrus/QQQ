@@ -1,10 +1,10 @@
-# Обновлено: 2026-10-22 01:08 UTC
-# Всего в источнике: 4
-# Живых серверов: 4
+# Обновлено: 2026-10-22 06:18 UTC
+# Всего в источнике: 12
+# Живых серверов: 11
 # Источник: 26.txt
 
 proxies:
-- name: 🇩🇪85Mb | Hetzner Online GmbH
+- name: 🇩🇪73Mb | Hetzner Online GmbH
   type: vless
   server: 188.114.97.6
   port: 443
@@ -19,25 +19,16 @@ proxies:
     path: /ws
     headers:
       Host: omid-3x-ui.abolfzlllll.us.ci
-- name: 🇪🇪86Mb | Paul Sagov
+- name: 🇺🇸58Mb | FDCserversnet
   type: vless
-  server: 132.243.66.17
+  server: 50.7.95.196
   port: 443
-  uuid: 697386bb-c121-4933-b426-ad701cae90d8
+  uuid: 3b1fa839-2cb9-4511-9711-08800450aea3
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: ee.shapka-global.com
-- name: 🇪🇸80Mb | Green Floid
-  type: vless
-  server: 176.109.108.24
-  port: 8443
-  uuid: 068c73f5-c2fc-4579-96be-6e37cfcf58ed
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cdn-es.cahmes.space
-- name: 🇳🇱83Mb | RoyaleHosting BV
+  sni: servise.betust.net
+- name: 🇳🇱54Mb | RoyaleHosting BV
   type: vless
   server: uk1-2.998998.best
   port: 443
@@ -52,23 +43,109 @@ proxies:
     path: /resiouhgggggggggg?ed=2560fp=chrome
     headers:
       Host: server13.9966338.xyz
+- name: 🇪🇪80Mb | Andris Jakovlevs
+  type: vless
+  server: 132.243.65.82
+  port: 443
+  uuid: 4f35274e-006f-43e7-87be-c8cba4882b0c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: player.vimeo.com
+- name: 🇺🇸55Mb | Great Flower
+  type: vless
+  server: 193.233.112.15
+  port: 443
+  uuid: afbd410e-1663-4f40-9d3b-df5117aa23ca
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 193.233.112.15.sslip.io
+- name: 🇪🇸82Mb | Green Floid
+  type: vless
+  server: 176.109.108.24
+  port: 8443
+  uuid: 068c73f5-c2fc-4579-96be-6e37cfcf58ed
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: cdn-es.cahmes.space
+- name: 🇳🇱81Mb | Clodo Cloud Service Co
+  type: vless
+  server: 90.156.226.4
+  port: 8093
+  uuid: 0d55ea1d-5587-4c17-9e85-3ee9b279aa8f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: travel.yandex.ru
+- name: 🇺🇸53Mb | Route 95
+  type: vless
+  server: 80.66.65.251
+  port: 8443
+  uuid: 068c73f5-c2fc-4579-96be-6e37cfcf58ed
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: cdn-us.cahmes.space
+- name: 🇰🇿65Mb | VK Tech Kazakhstan LLP
+  type: vless
+  server: 93.183.87.107
+  port: 443
+  uuid: d86e6fda-e519-46ab-98eb-9ff9a9da5984
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: lively-raptor.cdn.cachefleet.com
+- name: 🇱🇹83Mb | UAB Cherry Servers
+  type: vless
+  server: app26.betust.net
+  port: 443
+  uuid: 3b1fa839-2cb9-4511-9711-08800450aea3
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: app26.betust.net
+- name: 🇳🇱81Mb | UAB Cherry Servers
+  type: vless
+  server: game.betust.net
+  port: 443
+  uuid: 3b1fa839-2cb9-4511-9711-08800450aea3
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: api14.betust.net
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇩🇪85Mb | Hetzner Online GmbH
-  - 🇪🇪86Mb | Paul Sagov
-  - 🇪🇸80Mb | Green Floid
-  - 🇳🇱83Mb | RoyaleHosting BV
+  - 🇩🇪73Mb | Hetzner Online GmbH
+  - 🇺🇸58Mb | FDCserversnet
+  - 🇳🇱54Mb | RoyaleHosting BV
+  - 🇪🇪80Mb | Andris Jakovlevs
+  - 🇺🇸55Mb | Great Flower
+  - 🇪🇸82Mb | Green Floid
+  - 🇳🇱81Mb | Clodo Cloud Service Co
+  - 🇺🇸53Mb | Route 95
+  - 🇰🇿65Mb | VK Tech Kazakhstan LLP
+  - 🇱🇹83Mb | UAB Cherry Servers
+  - 🇳🇱81Mb | UAB Cherry Servers
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇩🇪85Mb | Hetzner Online GmbH
-  - 🇪🇪86Mb | Paul Sagov
-  - 🇪🇸80Mb | Green Floid
-  - 🇳🇱83Mb | RoyaleHosting BV
+  - 🇩🇪73Mb | Hetzner Online GmbH
+  - 🇺🇸58Mb | FDCserversnet
+  - 🇳🇱54Mb | RoyaleHosting BV
+  - 🇪🇪80Mb | Andris Jakovlevs
+  - 🇺🇸55Mb | Great Flower
+  - 🇪🇸82Mb | Green Floid
+  - 🇳🇱81Mb | Clodo Cloud Service Co
+  - 🇺🇸53Mb | Route 95
+  - 🇰🇿65Mb | VK Tech Kazakhstan LLP
+  - 🇱🇹83Mb | UAB Cherry Servers
+  - 🇳🇱81Mb | UAB Cherry Servers
 rules:
 - MATCH,🌍 Прокси
