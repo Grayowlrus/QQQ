@@ -1,29 +1,14 @@
-# Обновлено: 2026-10-22 23:48 UTC
-# Всего в источнике: 9
-# Живых серверов: 9
+# Обновлено: 2026-10-23 02:56 UTC
+# Всего в источнике: 4
+# Живых серверов: 3
 # Источник: 26.txt
 
 proxies:
-- name: 🇩🇪84Mb | Unesty Company
-  type: vless
-  server: 172.67.133.118
-  port: 2053
-  uuid: 26769ac3-b34c-430a-87f8-e1de14619d25
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: uwu.blueknightnet.qzz.io
-  network: ws
-  ws-opts:
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-- name: 🇩🇪83Mb | Unesty Company
+- name: 🇩🇪53Mb | Unesty Company
   type: vless
   server: undef.network
   port: 2053
-  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
+  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
   udp: true
   skip-cert-verify: true
   encryption: none
@@ -34,51 +19,7 @@ proxies:
     path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
     headers:
       Host: uwu.blueknightnet.qzz.io
-- name: 🇫🇷52Mb | Amazoncom
-  type: vless
-  server: 15.224.143.133
-  port: 22223
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-- name: 🌐56Mb | 2234 | 🇬🇧 United Kingdom | VLE
-  type: vless
-  server: 163.245.41.52
-  port: 2096
-  uuid: 6da2c981-8c77-4340-bda3-93399b7aea26
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.apple.com
-- name: 🇱🇻56Mb | Sia Nano IT
-  type: vless
-  server: 185.81.129.197
-  port: 443
-  uuid: c31dc85a-747e-4dac-94b9-2d5ca7791367
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: lites.3apes.online
-- name: 🇩🇪62Mb | dataforest GmbH
-  type: vless
-  server: 277f9fx.de22.h1clayd.click
-  port: 443
-  uuid: 8c9a6b30-52d0-41f2-9490-408a06d3aaac
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: 277f9fx.de22.h1clayd.click
-- name: 🇧🇬71Mb | Belcloud LTD
-  type: vless
-  server: randomquaint.net
-  port: 8443
-  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-- name: 🇳🇱51Mb | RoyaleHosting BV
+- name: 🇳🇱82Mb | RoyaleHosting BV
   type: vless
   server: uk1-2.998998.best
   port: 443
@@ -93,42 +34,33 @@ proxies:
     path: /resiouhgggggggggg?ed=2560fp=chrome
     headers:
       Host: server13.9966338.xyz
-- name: 🇩🇪63Mb | Hetzner Online GmbH
+- name: 🇸🇪61Mb | UAB Cherry Servers
   type: vless
-  server: de2-tun.dnetopps.ir
-  port: 10020
-  uuid: 03a3d946-4738-968a-5ce9-e4f470980d47
+  server: toggle.skelmoridianservice.com
+  port: 443
+  uuid: 26dd886d-3eae-4eda-a92d-dc5d5e7e036e
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: reality2.dnetopps.ir
+  sni: my.hexagonicfield.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇩🇪84Mb | Unesty Company
-  - 🇩🇪83Mb | Unesty Company
-  - 🇫🇷52Mb | Amazoncom
-  - 🌐56Mb | 2234 | 🇬🇧 United Kingdom | VLE
-  - 🇱🇻56Mb | Sia Nano IT
-  - 🇩🇪62Mb | dataforest GmbH
-  - 🇧🇬71Mb | Belcloud LTD
-  - 🇳🇱51Mb | RoyaleHosting BV
-  - 🇩🇪63Mb | Hetzner Online GmbH
+  - 🇩🇪53Mb | Unesty Company
+  - 🇳🇱82Mb | RoyaleHosting BV
+  - 🇸🇪61Mb | UAB Cherry Servers
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇩🇪84Mb | Unesty Company
-  - 🇩🇪83Mb | Unesty Company
-  - 🇫🇷52Mb | Amazoncom
-  - 🌐56Mb | 2234 | 🇬🇧 United Kingdom | VLE
-  - 🇱🇻56Mb | Sia Nano IT
-  - 🇩🇪62Mb | dataforest GmbH
-  - 🇧🇬71Mb | Belcloud LTD
-  - 🇳🇱51Mb | RoyaleHosting BV
-  - 🇩🇪63Mb | Hetzner Online GmbH
+  - 🇩🇪53Mb | Unesty Company
+  - 🇳🇱82Mb | RoyaleHosting BV
+  - 🇸🇪61Mb | UAB Cherry Servers
 rules:
 - MATCH,🌍 Прокси
