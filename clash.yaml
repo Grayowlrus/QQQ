@@ -1,46 +1,106 @@
-# Обновлено: 2026-10-23 13:40 UTC
-# Всего в источнике: 2
-# Живых серверов: 2
+# Обновлено: 2026-10-23 18:02 UTC
+# Всего в источнике: 7
+# Живых серверов: 7
 # Источник: 26.txt
 
 proxies:
-- name: 🇳🇱48Mb | Akamai Connected Cloud
+- name: 🇮🇪53Mb | Amazoncom
   type: vless
-  server: www.visa.com.hk
+  server: 16.60.44.179
+  port: 22222
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+- name: 🇳🇱59Mb | NovoServe BV
+  type: vless
+  server: 89.105.199.53
   port: 443
-  uuid: e0ccda9e-08ba-4da3-8844-73d586c7fff7
+  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: xuthnybd.himoy.space
+- name: '🌐71Mb | Channel id: @ShadowProxy66 🇩🇪'
+  type: vless
+  server: 163.245.41.48
+  port: 2096
+  uuid: 6da2c981-8c77-4340-bda3-93399b7aea26
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.apple.com
+- name: 🇪🇪85Mb | Cloudflare
+  type: vless
+  server: 114.129.9.132
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: nl-ams.862400.xyz
+  sni: snip.edgeoneai.cc.cd
   network: ws
   ws-opts:
-    path: /announcement?ed=2048
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
     headers:
-      Host: nl-ams.862400.xyz
-- name: 🇱🇻81Mb | Sia Nano IT
+      Host: snip.edgeoneai.cc.cd
+- name: 🇱🇻79Mb | Sia Nano IT
   type: vless
-  server: lites.3apes.online
+  server: 185.81.129.197
   port: 443
   uuid: c31dc85a-747e-4dac-94b9-2d5ca7791367
   udp: true
   skip-cert-verify: true
   encryption: none
   sni: lites.3apes.online
+- name: 🇫🇮48Mb | Orion Network Limited
+  type: vless
+  server: 196.196.208.14
+  port: 443
+  uuid: fafc7c16-f890-45ee-a856-02df225172dd
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: d0dc94t.fi7.h1clayd.click
+- name: 🇦🇱54Mb | Cloudflare
+  type: vless
+  server: 193.108.112.65
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇳🇱48Mb | Akamai Connected Cloud
-  - 🇱🇻81Mb | Sia Nano IT
+  - 🇮🇪53Mb | Amazoncom
+  - 🇳🇱59Mb | NovoServe BV
+  - '🌐71Mb | Channel id: @ShadowProxy66 🇩🇪'
+  - 🇪🇪85Mb | Cloudflare
+  - 🇱🇻79Mb | Sia Nano IT
+  - 🇫🇮48Mb | Orion Network Limited
+  - 🇦🇱54Mb | Cloudflare
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇳🇱48Mb | Akamai Connected Cloud
-  - 🇱🇻81Mb | Sia Nano IT
+  - 🇮🇪53Mb | Amazoncom
+  - 🇳🇱59Mb | NovoServe BV
+  - '🌐71Mb | Channel id: @ShadowProxy66 🇩🇪'
+  - 🇪🇪85Mb | Cloudflare
+  - 🇱🇻79Mb | Sia Nano IT
+  - 🇫🇮48Mb | Orion Network Limited
+  - 🇦🇱54Mb | Cloudflare
 rules:
 - MATCH,🌍 Прокси
