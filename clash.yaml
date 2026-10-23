@@ -1,63 +1,46 @@
-# Обновлено: 2026-10-23 08:13 UTC
-# Всего в источнике: 4
-# Живых серверов: 3
+# Обновлено: 2026-10-23 13:40 UTC
+# Всего в источнике: 2
+# Живых серверов: 2
 # Источник: 26.txt
 
 proxies:
-- name: 🇺🇸56Mb | Hurricane Electric
+- name: 🇳🇱48Mb | Akamai Connected Cloud
   type: vless
-  server: 45.130.125.151
+  server: www.visa.com.hk
   port: 443
-  uuid: eaf76557-2219-4799-8171-d7020adfefd0
+  uuid: e0ccda9e-08ba-4da3-8844-73d586c7fff7
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: fancy-mouse-6aff.wixit71180.workers.dev
+  sni: nl-ams.862400.xyz
   network: ws
   ws-opts:
-    path: /ws
+    path: /announcement?ed=2048
     headers:
-      Host: fancy-mouse-6aff.wixit71180.workers.dev
-- name: 🇺🇸64Mb | Railway
+      Host: nl-ams.862400.xyz
+- name: 🇱🇻81Mb | Sia Nano IT
   type: vless
-  server: usernumb-production.up.railway.app
+  server: lites.3apes.online
   port: 443
-  uuid: 6efe8b5d-c600-6b03-977a-aa3ca0abbaa0
+  uuid: c31dc85a-747e-4dac-94b9-2d5ca7791367
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: usernumb-production.up.railway.app
-  network: ws
-  ws-opts:
-    path: /ws/6efe8b5d-c600-6b03-977a-aa3ca0abbaa0
-    headers:
-      Host: usernumb-production.up.railway.app
-- name: 🇱🇹83Mb | Nexttranslate
-  type: vless
-  server: jeod.figmafound.org
-  port: 443
-  uuid: eca11a38-47f7-4207-ac62-2f0cef3de679
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: jeod.figmafound.org
+  sni: lites.3apes.online
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇺🇸56Mb | Hurricane Electric
-  - 🇺🇸64Mb | Railway
-  - 🇱🇹83Mb | Nexttranslate
+  - 🇳🇱48Mb | Akamai Connected Cloud
+  - 🇱🇻81Mb | Sia Nano IT
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇺🇸56Mb | Hurricane Electric
-  - 🇺🇸64Mb | Railway
-  - 🇱🇹83Mb | Nexttranslate
+  - 🇳🇱48Mb | Akamai Connected Cloud
+  - 🇱🇻81Mb | Sia Nano IT
 rules:
 - MATCH,🌍 Прокси
