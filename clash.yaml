@@ -1,10 +1,55 @@
-# Обновлено: 2026-10-24 13:26 UTC
-# Всего в источнике: 5
-# Живых серверов: 5
+# Обновлено: 2026-10-24 16:47 UTC
+# Всего в источнике: 11
+# Живых серверов: 11
 # Источник: 26.txt
 
 proxies:
-- name: 🇳🇱73Mb | Akamai Connected Cloud
+- name: 🇸🇪51Mb | Cloudflare
+  type: vless
+  server: 104.18.236.11
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 🇸🇪55Mb | Cloudflare
+  type: vless
+  server: 104.18.33.14
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 🇸🇪49Mb | Cloudflare
+  type: vless
+  server: 172.64.154.211
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 🇳🇱49Mb | Akamai Connected Cloud
   type: vless
   server: www.visa.com.hk
   port: 443
@@ -19,27 +64,24 @@ proxies:
     path: /announcement?ed=2048
     headers:
       Host: nl-ams.862400.xyz
-- name: 🇫🇷50Mb | OVH SAS
+- name: 🇩🇪60Mb | Cloudflare
   type: vless
-  server: 103.91.147.218
-  port: 443
-  uuid: 0b6a937e-5b0e-49ca-b31e-f03f290e97cf
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ai.ozon.ru
-- name: 🇫🇮67Mb | DigitalEra Tech OU
-  type: vless
-  server: 185.119.81.7
-  port: 10443
-  uuid: 2f5cfa10-43e5-4912-800d-557308a26a29
+  server: 45.157.233.109
+  port: 2087
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-- name: 🇧🇬53Mb | Cloudflare
+  sni: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 🇩🇪48Mb | Cloudflare
   type: vless
-  server: 155.103.70.33
+  server: 213.226.71.16
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
@@ -52,40 +94,88 @@ proxies:
     path: /
     headers:
       Host: snip.edgeoneai.cc.cd
-- name: 🇫🇮63Mb | Hetzner Online GmbH
+- name: 🇩🇪65Mb | Cloudflare
   type: vless
-  server: hw3.divarkhaghazi.com
-  port: 465
-  uuid: 924e20da-fcad-4e7e-8113-c62d27a0d01e
+  server: 77.239.104.229
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: hw3.divarkhaghazi.com.
+  sni: snip.edgeoneai.cc.cd
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: hw3.divarkhaghazi.com.
+      Host: snip.edgeoneai.cc.cd
+- name: 🇳🇱50Mb | NovoServe BV
+  type: vless
+  server: xuthnybd.himoy.space
+  port: 443
+  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: xuthnybd.himoy.space
+- name: 🇸🇪56Mb | Melbikomas UAB
+  type: vless
+  server: 135.106.143.114
+  port: 443
+  uuid: 9c5ad05d-d807-002f-bf48-cfad48af6dec
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: goroskop365.ru
+- name: 🇵🇱92Mb | Jakub Witkowski
+  type: vless
+  server: 92.53.119.212
+  port: 40849
+  uuid: 1ef7d97f-3aa5-0001-8521-84cf4794bf7a
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru-hub10.lovely.my
+- name: 🇱🇻78Mb | Sia Nano IT
+  type: vless
+  server: lite.3apes.online
+  port: 443
+  uuid: c31dc85a-747e-4dac-94b9-2d5ca7791367
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: lite.3apes.online
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇳🇱73Mb | Akamai Connected Cloud
-  - 🇫🇷50Mb | OVH SAS
-  - 🇫🇮67Mb | DigitalEra Tech OU
-  - 🇧🇬53Mb | Cloudflare
-  - 🇫🇮63Mb | Hetzner Online GmbH
+  - 🇸🇪51Mb | Cloudflare
+  - 🇸🇪55Mb | Cloudflare
+  - 🇸🇪49Mb | Cloudflare
+  - 🇳🇱49Mb | Akamai Connected Cloud
+  - 🇩🇪60Mb | Cloudflare
+  - 🇩🇪48Mb | Cloudflare
+  - 🇩🇪65Mb | Cloudflare
+  - 🇳🇱50Mb | NovoServe BV
+  - 🇸🇪56Mb | Melbikomas UAB
+  - 🇵🇱92Mb | Jakub Witkowski
+  - 🇱🇻78Mb | Sia Nano IT
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇳🇱73Mb | Akamai Connected Cloud
-  - 🇫🇷50Mb | OVH SAS
-  - 🇫🇮67Mb | DigitalEra Tech OU
-  - 🇧🇬53Mb | Cloudflare
-  - 🇫🇮63Mb | Hetzner Online GmbH
+  - 🇸🇪51Mb | Cloudflare
+  - 🇸🇪55Mb | Cloudflare
+  - 🇸🇪49Mb | Cloudflare
+  - 🇳🇱49Mb | Akamai Connected Cloud
+  - 🇩🇪60Mb | Cloudflare
+  - 🇩🇪48Mb | Cloudflare
+  - 🇩🇪65Mb | Cloudflare
+  - 🇳🇱50Mb | NovoServe BV
+  - 🇸🇪56Mb | Melbikomas UAB
+  - 🇵🇱92Mb | Jakub Witkowski
+  - 🇱🇻78Mb | Sia Nano IT
 rules:
 - MATCH,🌍 Прокси
