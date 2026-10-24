@@ -1,158 +1,66 @@
-# Обновлено: 2026-10-24 04:51 UTC
-# Всего в источнике: 15
-# Живых серверов: 15
+# Обновлено: 2026-10-24 09:14 UTC
+# Всего в источнике: 9
+# Живых серверов: 9
 # Источник: 26.txt
 
 proxies:
-- name: 🇸🇪82Mb | Cloudflare
+- name: 🇸🇪77Mb | Cloudflare
   type: vless
-  server: 104.25.199.149
+  server: 172.64.150.28
   port: 443
-  uuid: 50414e45-4c5f-5a45-5553-5dd075c8ae9b
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: web-app-gjn19f.z0zxy6ehuwgs.workers.dev
+  sni: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 🇸🇪140Mb | Cloudflare
+  type: vless
+  server: 172.64.152.10
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 🇸🇪107Mb | Cloudflare
+  type: vless
+  server: 172.67.145.14
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: web-app-ji3j1z.app-wuuhuw.workers.dev
   network: ws
   ws-opts:
     path: /api/ws
     headers:
-      Host: web-app-gjn19f.z0zxy6ehuwgs.workers.dev
-- name: 🇸🇪97Mb | Play2go International Limited
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+- name: 🇨🇦54Mb | BrainStorm Network
   type: vless
-  server: 188.114.98.0
+  server: 96.44.152.10
   port: 443
-  uuid: 52b65306-7529-486c-ae0c-883340ac5300
+  uuid: caf3d607-95c9-4ea0-98b5-864027056ba0
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: hittaikea.prizraknode.shop
-- name: 🇳🇱91Mb | Cloudflare
+  sni: ca1.accessboy.com
+- name: 🇩🇪54Mb | Cloudflare
   type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: b8ab1937-611c-4734-b01c-ff3818edf635
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: m.udemy.com.ex33r.eu.cc
-  network: ws
-  ws-opts:
-    path: /id-amz
-    headers:
-      Host: m.udemy.com.ex33r.eu.cc
-- name: 🇳🇱68Mb | Cloudflare
-  type: vless
-  server: 188.114.97.6
-  port: 2087
-  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: levikoconfig.levikogjgfdd.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: levikoconfig.levikogjgfdd.ir
-- name: 🇸🇪78Mb | Cloudflare
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime07.workers.dev
-- name: 🇳🇱63Mb | Cloudflare
-  type: vless
-  server: 172.67.209.13
-  port: 443
-  uuid: fa45096d-bed0-ad80-c773-23c30000001b
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
-- name: 🇳🇱55Mb | Cloudflare
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560#
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: 🇨🇳55Mb | Tencent Building Kejizhongyi Avenue
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: vpn.cintaku.qzz.io
-  network: ws
-  ws-opts:
-    path: /vlessws
-    headers:
-      Host: vpn.cintaku.qzz.io
-- name: 🇸🇬55Mb | LEASEWEB SINGAPORE PTE LTD
-  type: vless
-  server: support.zoom.us
-  port: 443
-  uuid: b054e267-e2d8-4ca2-b95e-79ca5cb7cf9a
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: cloud.ghostdev.lk
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cloud.ghostdev.lk
-- name: 🇪🇪49Mb | Astrec Data OU
-  type: vless
-  server: 45.139.27.9
-  port: 443
-  uuid: 6eca8bc3-c4e1-48d1-bf15-1eb016dd6272
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.spbu.ru
-- name: 🇫🇮102Mb | Fzco
-  type: vless
-  server: ivx-ivy-al0.whitenetwork.cloud
-  port: 7445
-  uuid: 66217279-de40-4b62-b2bb-9c33b8fb7a01
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: passport.yandex.ru
-- name: 🇷🇴48Mb | Cloudflare
-  type: vless
-  server: 81.181.166.197
+  server: 213.165.37.102
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
@@ -165,81 +73,83 @@ proxies:
     path: /
     headers:
       Host: snip.edgeoneai.cc.cd
-- name: 🇪🇪94Mb | Datagio Systems
+- name: 🇩🇪53Mb | Cloudflare
   type: vless
-  server: xnodtwx.artemida.live
+  server: 31.76.96.60
   port: 443
-  uuid: 4c346148-ece9-487a-bffb-ba5a399b2d71
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: xnodtwx.artemida.live
-  network: grpc
-  grpc-opts:
-    grpc-service-name: ''
-- name: 🇧🇾85Mb | Itglobalcom Bel
-  type: vless
-  server: 140.225.199.56
-  port: 443
-  uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: stream.indigo.ru
-- name: 🇳🇱58Mb | Cloudflare
-  type: vless
-  server: www.baipiao.eu.org
-  port: 443
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: misaka.cndyw.ggff.net
+  sni: snip.edgeoneai.cc.cd
   network: ws
   ws-opts:
-    path: /?ed=2560fp=random
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
     headers:
-      Host: misaka.cndyw.ggff.net
+      Host: snip.edgeoneai.cc.cd
+- name: 🇰🇬55Mb | Cloudflare
+  type: vless
+  server: 193.36.95.34
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 🇫🇮54Mb | Senko Digital
+  type: vless
+  server: finland03.azotvpn.xyz
+  port: 9443
+  uuid: 5a96c1fc-f167-44b9-9020-8f6867537d14
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: finland03.azotvpn.xyz
+- name: 🇳🇱52Mb | Senko Digital
+  type: vless
+  server: netherlands01.azotvpn.xyz
+  port: 9443
+  uuid: 065faef7-2449-4d29-895b-ce3a696ab7a2
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: netherlands01.azotvpn.xyz
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇸🇪82Mb | Cloudflare
-  - 🇸🇪97Mb | Play2go International Limited
-  - 🇳🇱91Mb | Cloudflare
-  - 🇳🇱68Mb | Cloudflare
-  - 🇸🇪78Mb | Cloudflare
-  - 🇳🇱63Mb | Cloudflare
-  - 🇳🇱55Mb | Cloudflare
-  - 🇨🇳55Mb | Tencent Building Kejizhongyi Avenue
-  - 🇸🇬55Mb | LEASEWEB SINGAPORE PTE LTD
-  - 🇪🇪49Mb | Astrec Data OU
-  - 🇫🇮102Mb | Fzco
-  - 🇷🇴48Mb | Cloudflare
-  - 🇪🇪94Mb | Datagio Systems
-  - 🇧🇾85Mb | Itglobalcom Bel
-  - 🇳🇱58Mb | Cloudflare
+  - 🇸🇪77Mb | Cloudflare
+  - 🇸🇪140Mb | Cloudflare
+  - 🇸🇪107Mb | Cloudflare
+  - 🇨🇦54Mb | BrainStorm Network
+  - 🇩🇪54Mb | Cloudflare
+  - 🇩🇪53Mb | Cloudflare
+  - 🇰🇬55Mb | Cloudflare
+  - 🇫🇮54Mb | Senko Digital
+  - 🇳🇱52Mb | Senko Digital
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇸🇪82Mb | Cloudflare
-  - 🇸🇪97Mb | Play2go International Limited
-  - 🇳🇱91Mb | Cloudflare
-  - 🇳🇱68Mb | Cloudflare
-  - 🇸🇪78Mb | Cloudflare
-  - 🇳🇱63Mb | Cloudflare
-  - 🇳🇱55Mb | Cloudflare
-  - 🇨🇳55Mb | Tencent Building Kejizhongyi Avenue
-  - 🇸🇬55Mb | LEASEWEB SINGAPORE PTE LTD
-  - 🇪🇪49Mb | Astrec Data OU
-  - 🇫🇮102Mb | Fzco
-  - 🇷🇴48Mb | Cloudflare
-  - 🇪🇪94Mb | Datagio Systems
-  - 🇧🇾85Mb | Itglobalcom Bel
-  - 🇳🇱58Mb | Cloudflare
+  - 🇸🇪77Mb | Cloudflare
+  - 🇸🇪140Mb | Cloudflare
+  - 🇸🇪107Mb | Cloudflare
+  - 🇨🇦54Mb | BrainStorm Network
+  - 🇩🇪54Mb | Cloudflare
+  - 🇩🇪53Mb | Cloudflare
+  - 🇰🇬55Mb | Cloudflare
+  - 🇫🇮54Mb | Senko Digital
+  - 🇳🇱52Mb | Senko Digital
 rules:
 - MATCH,🌍 Прокси
