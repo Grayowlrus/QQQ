@@ -1,46 +1,83 @@
-# Обновлено: 2026-10-24 21:42 UTC
-# Всего в источнике: 2
-# Живых серверов: 2
+# Обновлено: 2026-10-24 23:55 UTC
+# Всего в источнике: 6
+# Живых серверов: 6
 # Источник: 26.txt
 
 proxies:
-- name: 🇸🇪117Mb | Cloudflare
+- name: 🌐60Mb | 0445 | 🇬🇧 United Kingdom | VLE
   type: vless
-  server: 104.18.47.73
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  server: 163.245.41.48
+  port: 2096
+  uuid: 6da2c981-8c77-4340-bda3-93399b7aea26
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🇳🇱52Mb | Fzco
+  sni: www.apple.com
+- name: 🇩🇪50Mb | Play2go International Limited
   type: vless
-  server: vb41fwol.himoy.space
+  server: 31.76.29.149
+  port: 443
+  uuid: d40fdcdb-8d6f-406d-a050-12e196fe8804
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: user.cdn-ui.info
+- name: 🇸🇪57Mb | Fzco
+  type: vless
+  server: 201.58.177.237
+  port: 443
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: swedenafteraventura.space
+- name: 🇫🇮50Mb | Fzco
+  type: vless
+  server: fin3.himoy.space
   port: 443
   uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: vb41fwol.himoy.space
+  sni: fin3.himoy.space
+- name: 🇮🇷87Mb | OVH SAS
+  type: vless
+  server: s10.redmbred.ir
+  port: 37857
+  uuid: 43d5b705-f33e-4d43-8540-b2de5f309117
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+- name: 🇩🇪62Mb | U1 Digital Services
+  type: vless
+  server: 179.254.163.120.sslip.io
+  port: 443
+  uuid: afbd410e-1663-4f40-9d3b-df5117aa23ca
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 179.254.163.120.sslip.io
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇸🇪117Mb | Cloudflare
-  - 🇳🇱52Mb | Fzco
+  - 🌐60Mb | 0445 | 🇬🇧 United Kingdom | VLE
+  - 🇩🇪50Mb | Play2go International Limited
+  - 🇸🇪57Mb | Fzco
+  - 🇫🇮50Mb | Fzco
+  - 🇮🇷87Mb | OVH SAS
+  - 🇩🇪62Mb | U1 Digital Services
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇸🇪117Mb | Cloudflare
-  - 🇳🇱52Mb | Fzco
+  - 🌐60Mb | 0445 | 🇬🇧 United Kingdom | VLE
+  - 🇩🇪50Mb | Play2go International Limited
+  - 🇸🇪57Mb | Fzco
+  - 🇫🇮50Mb | Fzco
+  - 🇮🇷87Mb | OVH SAS
+  - 🇩🇪62Mb | U1 Digital Services
 rules:
 - MATCH,🌍 Прокси
