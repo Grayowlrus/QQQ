@@ -1,10 +1,55 @@
-# Обновлено: 2026-11-10 17:10 UTC
-# Всего в источнике: 14
-# Живых серверов: 13
+# Обновлено: 2026-11-10 22:26 UTC
+# Всего в источнике: 48
+# Живых серверов: 44
 # Источник: 26.txt
 
 proxies:
-- name: 🇫🇷54Mb | OVH SAS
+- name: 🇩🇪161Mb | Hetzner Online
+  type: vless
+  server: 190.93.247.95
+  port: 8443
+  uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: moz.ar-marz.fun
+  network: ws
+  ws-opts:
+    path: /man
+    headers:
+      Host: moz.ar-marz.fun
+- name: 🇫🇷139Mb | OVH SAS
+  type: vless
+  server: 151.101.36.111
+  port: 443
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: accounts.fastly.com
+- name: 🇫🇷128Mb | OVH SAS
+  type: vless
+  server: 151.101.36.61
+  port: 443
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: accounts.fastly.com
+- name: 🇫🇷93Mb | OVH SAS
+  type: vless
+  server: 151.101.36.246
+  port: 443
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: accounts.fastly.com
+- name: 🇫🇷67Mb | OVH SAS
   type: vless
   server: 151.101.36.61
   port: 443
@@ -14,99 +59,105 @@ proxies:
   encryption: none
   tls: true
   sni: accounts.fastly.com
-- name: 🇺🇸97Mb | HostPapa
+- name: 🇫🇷81Mb | OVH SAS
   type: vless
-  server: s2318.wagahaha.xyz
+  server: 151.101.36.201
   port: 443
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: u695098uf215742bs2316.fuhuovps.xyz
-- name: 🇺🇸61Mb | HostPapa
+  sni: accounts.fastly.com
+- name: 🇫🇷55Mb | OVH SAS
   type: vless
-  server: s2317.gogocs.xyz
+  server: 151.101.36.201
   port: 443
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  uuid: 9a46fb8c-fde6-492c-b5c6-8b44af0ce75f
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: u695098uf215742bs2316.fuhuovps.xyz
-- name: 🇪🇸145Mb | Interkvm Host Srl
+  sni: accounts.fastly.com
+- name: 🇨🇦145Mb | Amazoncom
   type: vless
-  server: 156.252.229.203
-  port: 8443
-  uuid: 585a421d-d782-4420-912e-dd58ff5966d7
+  server: 16.52.72.4
+  port: 80
+  uuid: 6daa0b95-9210-4f29-be40-8c6db00bc5bb
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: play.googleapis.com
-- name: 🇪🇸221Mb | Interkvm Host Srl
+- name: 🇺🇸100Mb | IT7 Networks
   type: vless
-  server: 77.81.182.7
-  port: 8443
-  uuid: 585a421d-d782-4420-912e-dd58ff5966d7
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: amp-api-edge.apps.apple.com
-- name: 🇳🇱145Mb | AntiDDoS Networks
-  type: vless
-  server: 144.31.225.74
+  server: n03.jinggai.online
   port: 443
-  uuid: 8ac4cf4e-c31c-4fb3-b56d-cf914970fa1b
+  uuid: 92bf29cc-ee08-4c97-bf0b-b4dff41e5bd8
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: static-nl.song69.fun
-- name: 🇨🇭248Mb | WAIcore
+  tls: true
+  sni: n03.jinggai.online
+  network: grpc
+  grpc-opts:
+    grpc-service-name: node03
+- name: 🇬🇧379Mb | FDCserversnet
   type: vless
-  server: 95.85.231.3
-  port: 2087
-  uuid: 549766c3-fa5f-471e-8031-ffc1f8d5064f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: summit.blog-forme.ru
-- name: 🇸🇨162Mb | DigitalEra Tech OU
-  type: vless
-  server: vv9bo423qfvc.cloudymedia.click
-  port: 443
-  uuid: fb390da4-00c5-54f1-a1b4-c8e2bb6378c2
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: deepl.com
-- name: 🇬🇧245Mb | FDCserversnet
-  type: vless
-  server: prime.jarbook.net
-  port: 443
-  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: prime.jarbook.net
-- name: 🇬🇧250Mb | FDCserversnet
-  type: vless
-  server: prime.jarbook.net
+  server: 50.7.193.149
   port: 443
   uuid: fb37d713-0ed3-4146-b085-a5c879a9aafa
   udp: true
   skip-cert-verify: true
   encryption: none
   sni: prime.jarbook.net
-- name: 🇸🇬114Mb | Eons Data Communications Limited
+- name: 🇺🇸250Mb | FDCserversnet
   type: vless
-  server: zfapi.zalolink.com
-  port: 41295
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  server: 50.7.169.242
+  port: 443
+  uuid: 33f3c1ee-f026-4f3f-bed3-8c7c01de8a96
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: www.lamer.com.sg
-- name: 🇩🇪327Mb | Cherry Servers
+  sni: user.betust.net
+- name: 🇳🇱266Mb | Fzco
+  type: vless
+  server: 201.58.186.29
+  port: 3443
+  uuid: 0f81141f-8290-4a47-b1fa-c5761e39f7f0
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dzen.ru
+- name: 🇳🇱119Mb | Cherry Servers
+  type: vless
+  server: 84.32.96.251
+  port: 443
+  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: reg.jarbook.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: BookCatalog
+- name: 🇳🇱224Mb | Fzco
+  type: vless
+  server: 13.143.175.47
+  port: 443
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: hollandlanzerotte.xyz
+- name: 🇳🇱131Mb | Servers Tech Fzco
+  type: vless
+  server: 94.183.164.119
+  port: 22843
+  uuid: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: nl16.blog-forme.ru
+- name: 🇩🇪182Mb | Cherry Servers
   type: vless
   server: 84.32.98.162
   port: 443
@@ -115,7 +166,300 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: mstchgem2.jarvesitw.ru
-- name: 🇩🇪355Mb | Cherry Servers
+- name: 🇳🇱79Mb | Cherry Servers
+  type: vless
+  server: 84.32.96.251
+  port: 443
+  uuid: fb37d713-0ed3-4146-b085-a5c879a9aafa
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: book.jarbook.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: BookCatalog
+- name: 🇳🇱169Mb | Vladislav Doniy
+  type: vless
+  server: 94.183.164.119
+  port: 443
+  uuid: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: tgnl2.blog-forme.ru
+- name: 🇳🇱55Mb | NovoServe
+  type: vless
+  server: 89.105.195.148
+  port: 443
+  uuid: 1653818d-532e-46be-b825-384107fb7c3a
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: stats.mediacorphub.org
+  network: grpc
+  grpc-opts:
+    grpc-service-name: gw.v2.PushService
+- name: 🇳🇱201Mb | Fzco
+  type: vless
+  server: 201.58.186.29
+  port: 8443
+  uuid: 0f81141f-8290-4a47-b1fa-c5761e39f7f0
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dzen.ru
+- name: 🇳🇱52Mb | NovoServe
+  type: vless
+  server: 89.105.195.151
+  port: 443
+  uuid: 1653818d-532e-46be-b825-384107fb7c3a
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: assets.mediacorphub.org
+  network: grpc
+  grpc-opts:
+    grpc-service-name: hub.v1.ObjectService
+- name: 🇳🇱85Mb | AntiDDoS Networks
+  type: vless
+  server: 144.31.225.74
+  port: 443
+  uuid: 8ac4cf4e-c31c-4fb3-b56d-cf914970fa1b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: static-nl.song69.fun
+- name: 🇳🇱106Mb | Vladislav Doniy
+  type: vless
+  server: 94.183.164.119
+  port: 8443
+  uuid: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: tgnl2.blog-forme.ru
+- name: 🇮🇹189Mb | Microsoft
+  type: vless
+  server: 172.213.24.16
+  port: 2083
+  uuid: 52a5a29f-c162-411a-8a37-a3f11b0dc537
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.apple.com
+- name: 🇳🇱54Mb | Dedik Services Limited
+  type: vless
+  server: 93.152.215.254
+  port: 443
+  uuid: 6db6b948-655f-4f68-a9e7-865050e05b31
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 93.152.215.254
+- name: 🇸🇪145Mb | Amazoncom
+  type: vless
+  server: 13.53.216.223
+  port: 443
+  uuid: 7164a272-94c9-402c-bb6a-74d5095d230c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: shop-eu-fr.amd.com
+- name: 🇬🇧354Mb | FDCserversnet
+  type: vless
+  server: prime.jarbook.net
+  port: 443
+  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: prime.jarbook.net
+- name: 🇬🇧107Mb | FDCserversnet
+  type: vless
+  server: prime.jarbook.net
+  port: 443
+  uuid: fb37d713-0ed3-4146-b085-a5c879a9aafa
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: prime.jarbook.net
+- name: 🇳🇱99Mb | Cherry Servers
+  type: vless
+  server: book.jarbook.net
+  port: 443
+  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: reg.jarbook.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: BookCatalog
+- name: 🇳🇱66Mb | NovoServe
+  type: vless
+  server: hub.mediacorphub.org
+  port: 443
+  uuid: 1653818d-532e-46be-b825-384107fb7c3a
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: hub.mediacorphub.org
+  network: grpc
+  grpc-opts:
+    grpc-service-name: hub.v1.ObjectService
+- name: 🇳🇱59Mb | NovoServe
+  type: vless
+  server: get.mediacorphub.org
+  port: 443
+  uuid: 1653818d-532e-46be-b825-384107fb7c3a
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: get.mediacorphub.org
+  network: grpc
+  grpc-opts:
+    grpc-service-name: gw.v2.PushService
+- name: 🇨🇭279Mb | Global Connectivity Solutions Llp
+  type: vless
+  server: 185.242.247.66
+  port: 443
+  uuid: cf1b08a7-55b7-4241-b80a-c59116272b43
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: home.asperwild.com
+- name: 🇺🇸144Mb | Servhost Group
+  type: vless
+  server: 141.133.187.60
+  port: 443
+  uuid: 930fa247-a708-454d-a463-a5562cee642f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 13.143.195.113.sslip.io
+- name: 🇫🇷71Mb | OVH SAS
+  type: vless
+  server: 3.169.9.125
+  port: 443
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: d1afk2ndm8pox3.cloudfront.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: d1afk2ndm8pox3.cloudfront.net
+- name: 🇯🇵143Mb | IT7 Networks
+  type: vless
+  server: 45.78.49.22
+  port: 443
+  uuid: 4dbf1ade-33f1-40dc-9273-e51babd570fe
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: portal.citygrainla.com
+- name: 🇩🇪65Mb | Play2go International Limited
+  type: vless
+  server: velvetwormhole.space
+  port: 443
+  uuid: ab044ce9-1eef-47fd-8cbd-32310f96f66b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: velvetwormhole.space
+- name: 🇯🇵91Mb | The Constant Company
+  type: vless
+  server: s2533.gogocs.xyz
+  port: 443
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: u695098udfec02ees2532.xxti.top
+- name: 🇩🇪456Mb | HOSTES
+  type: vless
+  server: lt.neuroblur.top
+  port: 14443
+  uuid: 010be6fa-ab5f-404a-9edf-ab2db1f09f0c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: lt.neuroblur.top
+  network: ws
+  ws-opts:
+    path: /api/generate
+    headers:
+      Host: lt.neuroblur.top
+- name: 🇭🇷109Mb | Global Connectivity Solutions Llp
+  type: vless
+  server: horrvv.qik-server.uk
+  port: 443
+  uuid: 7828f609-b904-4843-8cc9-c6d94cc0005c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: horrvv.qik-server.uk
+- name: 🇳🇱68Mb | Fzco
+  type: vless
+  server: hollandlanzerotte.xyz
+  port: 443
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: hollandlanzerotte.xyz
+- name: 🇩🇪134Mb | HOSTES
+  type: vless
+  server: germ.onlineai.pro
+  port: 14443
+  uuid: 010be6fa-ab5f-404a-9edf-ab2db1f09f0c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: germ.onlineai.pro
+  network: ws
+  ws-opts:
+    path: /api/generate
+    headers:
+      Host: germ.onlineai.pro
+- name: 🇮🇳78Mb | Contabo Asia Private Limited
+  type: vless
+  server: xray-m0642ki4-silver-nebula-10.cloady.io
+  port: 443
+  uuid: bcd3798c-a56f-6bfc-b738-a17c43bd4a50
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: xray-m0642ki4-silver-nebula-10.cloady.io
+  network: ws
+  ws-opts:
+    path: /362b2b2c7197d648
+    headers:
+      Host: xray-m0642ki4-silver-nebula-10.cloady.io
+- name: 🇳🇱253Mb | DpkgSoft International Limited
+  type: vless
+  server: mintbyte.online
+  port: 443
+  uuid: ab044ce9-1eef-47fd-8cbd-32310f96f66b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: mintbyte.online
+- name: 🇩🇪275Mb | Cherry Servers
   type: vless
   server: mstchgem2.jarvesitw.ru
   port: 443
@@ -128,37 +472,99 @@ proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇫🇷54Mb | OVH SAS
-  - 🇺🇸97Mb | HostPapa
-  - 🇺🇸61Mb | HostPapa
-  - 🇪🇸145Mb | Interkvm Host Srl
-  - 🇪🇸221Mb | Interkvm Host Srl
-  - 🇳🇱145Mb | AntiDDoS Networks
-  - 🇨🇭248Mb | WAIcore
-  - 🇸🇨162Mb | DigitalEra Tech OU
-  - 🇬🇧245Mb | FDCserversnet
-  - 🇬🇧250Mb | FDCserversnet
-  - 🇸🇬114Mb | Eons Data Communications Limited
-  - 🇩🇪327Mb | Cherry Servers
-  - 🇩🇪355Mb | Cherry Servers
+  - 🇩🇪161Mb | Hetzner Online
+  - 🇫🇷139Mb | OVH SAS
+  - 🇫🇷128Mb | OVH SAS
+  - 🇫🇷93Mb | OVH SAS
+  - 🇫🇷67Mb | OVH SAS
+  - 🇫🇷81Mb | OVH SAS
+  - 🇫🇷55Mb | OVH SAS
+  - 🇨🇦145Mb | Amazoncom
+  - 🇺🇸100Mb | IT7 Networks
+  - 🇬🇧379Mb | FDCserversnet
+  - 🇺🇸250Mb | FDCserversnet
+  - 🇳🇱266Mb | Fzco
+  - 🇳🇱119Mb | Cherry Servers
+  - 🇳🇱224Mb | Fzco
+  - 🇳🇱131Mb | Servers Tech Fzco
+  - 🇩🇪182Mb | Cherry Servers
+  - 🇳🇱79Mb | Cherry Servers
+  - 🇳🇱169Mb | Vladislav Doniy
+  - 🇳🇱55Mb | NovoServe
+  - 🇳🇱201Mb | Fzco
+  - 🇳🇱52Mb | NovoServe
+  - 🇳🇱85Mb | AntiDDoS Networks
+  - 🇳🇱106Mb | Vladislav Doniy
+  - 🇮🇹189Mb | Microsoft
+  - 🇳🇱54Mb | Dedik Services Limited
+  - 🇸🇪145Mb | Amazoncom
+  - 🇬🇧354Mb | FDCserversnet
+  - 🇬🇧107Mb | FDCserversnet
+  - 🇳🇱99Mb | Cherry Servers
+  - 🇳🇱66Mb | NovoServe
+  - 🇳🇱59Mb | NovoServe
+  - 🇨🇭279Mb | Global Connectivity Solutions Llp
+  - 🇺🇸144Mb | Servhost Group
+  - 🇫🇷71Mb | OVH SAS
+  - 🇯🇵143Mb | IT7 Networks
+  - 🇩🇪65Mb | Play2go International Limited
+  - 🇯🇵91Mb | The Constant Company
+  - 🇩🇪456Mb | HOSTES
+  - 🇭🇷109Mb | Global Connectivity Solutions Llp
+  - 🇳🇱68Mb | Fzco
+  - 🇩🇪134Mb | HOSTES
+  - 🇮🇳78Mb | Contabo Asia Private Limited
+  - 🇳🇱253Mb | DpkgSoft International Limited
+  - 🇩🇪275Mb | Cherry Servers
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇫🇷54Mb | OVH SAS
-  - 🇺🇸97Mb | HostPapa
-  - 🇺🇸61Mb | HostPapa
-  - 🇪🇸145Mb | Interkvm Host Srl
-  - 🇪🇸221Mb | Interkvm Host Srl
-  - 🇳🇱145Mb | AntiDDoS Networks
-  - 🇨🇭248Mb | WAIcore
-  - 🇸🇨162Mb | DigitalEra Tech OU
-  - 🇬🇧245Mb | FDCserversnet
-  - 🇬🇧250Mb | FDCserversnet
-  - 🇸🇬114Mb | Eons Data Communications Limited
-  - 🇩🇪327Mb | Cherry Servers
-  - 🇩🇪355Mb | Cherry Servers
+  - 🇩🇪161Mb | Hetzner Online
+  - 🇫🇷139Mb | OVH SAS
+  - 🇫🇷128Mb | OVH SAS
+  - 🇫🇷93Mb | OVH SAS
+  - 🇫🇷67Mb | OVH SAS
+  - 🇫🇷81Mb | OVH SAS
+  - 🇫🇷55Mb | OVH SAS
+  - 🇨🇦145Mb | Amazoncom
+  - 🇺🇸100Mb | IT7 Networks
+  - 🇬🇧379Mb | FDCserversnet
+  - 🇺🇸250Mb | FDCserversnet
+  - 🇳🇱266Mb | Fzco
+  - 🇳🇱119Mb | Cherry Servers
+  - 🇳🇱224Mb | Fzco
+  - 🇳🇱131Mb | Servers Tech Fzco
+  - 🇩🇪182Mb | Cherry Servers
+  - 🇳🇱79Mb | Cherry Servers
+  - 🇳🇱169Mb | Vladislav Doniy
+  - 🇳🇱55Mb | NovoServe
+  - 🇳🇱201Mb | Fzco
+  - 🇳🇱52Mb | NovoServe
+  - 🇳🇱85Mb | AntiDDoS Networks
+  - 🇳🇱106Mb | Vladislav Doniy
+  - 🇮🇹189Mb | Microsoft
+  - 🇳🇱54Mb | Dedik Services Limited
+  - 🇸🇪145Mb | Amazoncom
+  - 🇬🇧354Mb | FDCserversnet
+  - 🇬🇧107Mb | FDCserversnet
+  - 🇳🇱99Mb | Cherry Servers
+  - 🇳🇱66Mb | NovoServe
+  - 🇳🇱59Mb | NovoServe
+  - 🇨🇭279Mb | Global Connectivity Solutions Llp
+  - 🇺🇸144Mb | Servhost Group
+  - 🇫🇷71Mb | OVH SAS
+  - 🇯🇵143Mb | IT7 Networks
+  - 🇩🇪65Mb | Play2go International Limited
+  - 🇯🇵91Mb | The Constant Company
+  - 🇩🇪456Mb | HOSTES
+  - 🇭🇷109Mb | Global Connectivity Solutions Llp
+  - 🇳🇱68Mb | Fzco
+  - 🇩🇪134Mb | HOSTES
+  - 🇮🇳78Mb | Contabo Asia Private Limited
+  - 🇳🇱253Mb | DpkgSoft International Limited
+  - 🇩🇪275Mb | Cherry Servers
 rules:
 - MATCH,🌍 Прокси
