@@ -1,269 +1,101 @@
-# Обновлено: 2026-11-12 14:28 UTC
-# Всего в источнике: 26
-# Живых серверов: 21
+# Обновлено: 2026-11-12 21:31 UTC
+# Всего в источнике: 7
+# Живых серверов: 7
 # Источник: 26.txt
 
 proxies:
-- name: 🇱🇰88Mb | Cyberzone
+- name: 🇺🇸114Mb | Quantumbeam Communications Limited
   type: vless
-  server: 170.114.45.6
-  port: 2096
-  uuid: efd11a89-7506-44ce-95b6-6654859f155b
+  server: 69.17.3.150
+  port: 443
+  uuid: 140d6fc9-2c6d-41bd-a487-182b52c0184f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: caissuers.microsoft.com
+- name: 🇳🇱322Mb | Railway
+  type: vless
+  server: whitepanel-ui-production-7ce942b9.up.railway.app
+  port: 443
+  uuid: 805f671c-8a55-b567-7719-669a9b840f2d
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: pcloud.z-tas.com
+  sni: whitepanel-ui-production-7ce942b9.up.railway.app
   network: ws
   ws-opts:
-    path: /
+    path: /ws/805f671c-8a55-b567-7719-669a9b840f2d
     headers:
-      Host: pcloud.z-tas.com
-- name: 🇫🇷127Mb | OVH SAS
+      Host: whitepanel-ui-production-7ce942b9.up.railway.app
+- name: 🇺🇸96Mb | Unredacted
   type: vless
-  server: 151.101.36.61
+  server: 162.216.231.214
   port: 443
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  uuid: f579e279-cdff-4175-a92d-350374fc14dc
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: accounts.fastly.com
-- name: 🇩🇪330Mb | Takehost Ou
+  sni: www.worldoftanks.com
+- name: 🇺🇸114Mb | Fzco
   type: vless
-  server: 201.4.73.21
-  port: 443
-  uuid: 664f65f4-33b3-43a3-b9e5-68192d1d428e
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: granite-orchard.cdn.cachefleet.com
-- name: 🇧🇪293Mb | VERIXI
-  type: vless
-  server: 109.69.218.172
-  port: 443
-  uuid: 664f65f4-33b3-43a3-b9e5-68192d1d428e
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: zealous-vortex.cdn.cachefleet.com
-- name: 🇩🇪94Mb | Hetzner Online
-  type: vless
-  server: 178.105.192.66
-  port: 443
-  uuid: 8733d1e5-6f6e-49bc-8c04-079ec4a8da64
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: tcptlsdigikala.savfasf.ir
-- name: 🇳🇱173Mb | Vladislav Doniy
-  type: vless
-  server: 94.183.164.176
-  port: 7443
-  uuid: 25ce9135-58c0-46fb-97ad-a39eeff459e9
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: optim.tildacdn.pub
-  network: grpc
-  grpc-opts:
-    grpc-service-name: ebl
-- name: 🇷🇴103Mb | Interkvm Host Srl
-  type: vless
-  server: 88.218.42.115
-  port: 443
-  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: edge-3b715ba41dc5.eu-cdn539.com
-- name: 🇷🇴161Mb | Interkvm Host Srl
-  type: vless
-  server: 88.218.42.115
-  port: 2087
-  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: edge-3b715ba41dc5.eu-cdn539.com
-- name: 🇧🇬121Mb | Belcloud
-  type: vless
-  server: 88.80.150.15
-  port: 443
-  uuid: 1d46250c-f015-439d-a7fd-c4d9e2a4c63d
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: bg2.oncloudvpn.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇺🇸208Mb | Route 95
-  type: vless
-  server: 45.88.176.30
-  port: 8443
-  uuid: ab53f3b6-7962-4bc1-90f6-8420767b22a8
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cdn-us.cahmes.space
-- name: 🇪🇪69Mb | Aktsiaselts WaveCom
-  type: vless
-  server: 38.244.155.67
-  port: 443
-  uuid: d651c9ab-b844-4420-b3d0-20d201ef5f55
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: node-eu-1.nztpro.com
-- name: 🇺🇸115Mb | Unredacted
-  type: vless
-  server: 87.120.106.95
-  port: 443
-  uuid: e8655f37-95d3-4a69-b23b-8623d059bdf5
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: worldoftanks.com
-- name: 🇳🇱68Mb | H1cloud
-  type: vless
-  server: 15b171g.nl7.h1clayd.click
-  port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: 15b171g.nl7.h1clayd.click
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 5b79e8a94241
-- name: 🇺🇸158Mb | Unredacted
-  type: vless
-  server: 87.120.106.95
-  port: 443
-  uuid: 54f1ac26-06db-4822-947e-0050aa3960ef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: worldoftanks.eu
-- name: 🇺🇸85Mb | Unredacted
-  type: vless
-  server: homestead-walloping.sports-streams.org
-  port: 443
-  uuid: ecdde9cd-2c7f-4a4e-9ad5-ecef6e5f145d
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: rss.worldoftanks.asia
-- name: 🇺🇸70Mb | Unredacted
-  type: vless
-  server: homestead-walloping.sports-streams.org
-  port: 443
-  uuid: e8655f37-95d3-4a69-b23b-8623d059bdf5
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: worldoftanks.com
-- name: 🇬🇧228Mb | Wedeploy SAS
-  type: vless
-  server: 5.59.204.221
-  port: 2087
-  uuid: 698e58cd-2f19-463a-8416-dac9d779d5e0
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: uk1.hat.onl
-- name: 🇧🇬155Mb | Belcloud
-  type: vless
-  server: 37.18.15.112
-  port: 8443
-  uuid: 37af0181-5598-4aad-a040-d926bcb65757
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: earlytrain.net
-- name: 🇧🇬180Mb | Belcloud
-  type: vless
-  server: earlytrain.net
-  port: 8443
-  uuid: 37af0181-5598-4aad-a040-d926bcb65757
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: earlytrain.net
-- name: 🇺🇸137Mb | Route 95
-  type: vless
-  server: us-05.avroraservice.online
-  port: 8443
-  uuid: ab53f3b6-7962-4bc1-90f6-8420767b22a8
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cdn-us.cahmes.space
-- name: 🇺🇸63Mb | Ace Data Centers II
-  type: vless
-  server: gembeforeshoping.space
+  server: 177.202.78.129
   port: 443
   uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: gembeforeshoping.space
+  sni: hollandlanzerotte.xyz
+- name: 🇺🇸93Mb | Unredacted
+  type: vless
+  server: coughed-gongs.freevideochats.org
+  port: 443
+  uuid: f579e279-cdff-4175-a92d-350374fc14dc
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.worldoftanks.com
+- name: 🇳🇱78Mb | H1cloud
+  type: vless
+  server: 5d0319t.nl7.h1clayd.click
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 5d0319t.nl7.h1clayd.click
+- name: 🇺🇸292Mb | FDCserversnet
+  type: vless
+  server: user.betust.net
+  port: 443
+  uuid: 33f3c1ee-f026-4f3f-bed3-8c7c01de8a96
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: user.betust.net
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇱🇰88Mb | Cyberzone
-  - 🇫🇷127Mb | OVH SAS
-  - 🇩🇪330Mb | Takehost Ou
-  - 🇧🇪293Mb | VERIXI
-  - 🇩🇪94Mb | Hetzner Online
-  - 🇳🇱173Mb | Vladislav Doniy
-  - 🇷🇴103Mb | Interkvm Host Srl
-  - 🇷🇴161Mb | Interkvm Host Srl
-  - 🇧🇬121Mb | Belcloud
-  - 🇺🇸208Mb | Route 95
-  - 🇪🇪69Mb | Aktsiaselts WaveCom
-  - 🇺🇸115Mb | Unredacted
-  - 🇳🇱68Mb | H1cloud
-  - 🇺🇸158Mb | Unredacted
-  - 🇺🇸85Mb | Unredacted
-  - 🇺🇸70Mb | Unredacted
-  - 🇬🇧228Mb | Wedeploy SAS
-  - 🇧🇬155Mb | Belcloud
-  - 🇧🇬180Mb | Belcloud
-  - 🇺🇸137Mb | Route 95
-  - 🇺🇸63Mb | Ace Data Centers II
+  - 🇺🇸114Mb | Quantumbeam Communications Limited
+  - 🇳🇱322Mb | Railway
+  - 🇺🇸96Mb | Unredacted
+  - 🇺🇸114Mb | Fzco
+  - 🇺🇸93Mb | Unredacted
+  - 🇳🇱78Mb | H1cloud
+  - 🇺🇸292Mb | FDCserversnet
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇱🇰88Mb | Cyberzone
-  - 🇫🇷127Mb | OVH SAS
-  - 🇩🇪330Mb | Takehost Ou
-  - 🇧🇪293Mb | VERIXI
-  - 🇩🇪94Mb | Hetzner Online
-  - 🇳🇱173Mb | Vladislav Doniy
-  - 🇷🇴103Mb | Interkvm Host Srl
-  - 🇷🇴161Mb | Interkvm Host Srl
-  - 🇧🇬121Mb | Belcloud
-  - 🇺🇸208Mb | Route 95
-  - 🇪🇪69Mb | Aktsiaselts WaveCom
-  - 🇺🇸115Mb | Unredacted
-  - 🇳🇱68Mb | H1cloud
-  - 🇺🇸158Mb | Unredacted
-  - 🇺🇸85Mb | Unredacted
-  - 🇺🇸70Mb | Unredacted
-  - 🇬🇧228Mb | Wedeploy SAS
-  - 🇧🇬155Mb | Belcloud
-  - 🇧🇬180Mb | Belcloud
-  - 🇺🇸137Mb | Route 95
-  - 🇺🇸63Mb | Ace Data Centers II
+  - 🇺🇸114Mb | Quantumbeam Communications Limited
+  - 🇳🇱322Mb | Railway
+  - 🇺🇸96Mb | Unredacted
+  - 🇺🇸114Mb | Fzco
+  - 🇺🇸93Mb | Unredacted
+  - 🇳🇱78Mb | H1cloud
+  - 🇺🇸292Mb | FDCserversnet
 rules:
 - MATCH,🌍 Прокси
