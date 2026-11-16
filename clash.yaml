@@ -1,68 +1,36 @@
-# Обновлено: 2026-11-15 20:04 UTC
-# Всего в источнике: 31
-# Живых серверов: 29
+# Обновлено: 2026-11-16 00:07 UTC
+# Всего в источнике: 16
+# Живых серверов: 12
 # Источник: 26.txt
 
 proxies:
-- name: 🇫🇷113Mb | OVH SAS
+- name: 🇫🇷423Mb | OVH SAS
   type: vless
-  server: 151.101.36.246
-  port: 443
-  uuid: ad9a885d-93bb-48e3-9937-57f1116b64e3
+  server: cdn-nl.vpnserverhub.com
+  port: 8080
+  uuid: d54061b7-f698-4a0e-aa6c-c565d2cc42b0
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: accounts.fastly.com
-- name: 🇺🇸165Mb | HostPapa
+  network: ws
+  ws-opts:
+    path: /vpn-secure-cdn
+    headers:
+      Host: cdn-nl.vpnserverhub.com
+- name: 🇫🇷373Mb | OVH SAS
   type: vless
-  server: 155.94.251.229
-  port: 443
-  uuid: 31f11af0-9a05-41a9-b4d0-f4e66e38c00c
+  server: cdn-nl.vpnserverhub.com
+  port: 8080
+  uuid: 60de825c-54eb-4c9a-abb0-8c7eedb6130f
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: www.amazon.com
-- name: 🇺🇸149Mb | 'Ghita Telekom'
-  type: vless
-  server: 179.254.69.103
-  port: 52006
-  uuid: 6fb89451-b573-4391-b046-d45ab9a6db49
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: us1.buyclicks.click
-- name: 🇺🇸151Mb | HostPapa
-  type: vless
-  server: 104.168.109.213
-  port: 443
-  uuid: 74b86103-0a6e-4a0e-8430-2aa84af805fc
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.cloudflare.com
-- name: 🇫🇮166Mb | Hetzner Online
-  type: vless
-  server: 108.156.65.62
-  port: 443
-  uuid: 2e69b088-6ef3-417f-8247-125cf257fafd
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: d1ivx1xk58pr8u.cloudfront.net
-- name: 🇩🇪367Mb | Cherry Servers
-  type: vless
-  server: 84.32.100.247
-  port: 443
-  uuid: 2232d904-8e6a-4202-8240-6efd8aec02e9
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: app.streamru4.net
-- name: 🇺🇸314Mb | FDCserversnet
+  network: ws
+  ws-opts:
+    path: /vpn-secure-cdn
+    headers:
+      Host: cdn-nl.vpnserverhub.com
+- name: 🇺🇸366Mb | FDCserversnet
   type: vless
   server: 50.7.95.230
   port: 443
@@ -71,192 +39,34 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: main.jarbook.net
-- name: 🇺🇸250Mb | Banatsync Srl
+- name: 🇭🇰101Mb | VMISS
   type: vless
-  server: 31.77.227.151
-  port: 52006
-  uuid: 6fb89451-b573-4391-b046-d45ab9a6db49
+  server: 91.213.186.45
+  port: 46986
+  uuid: 71327a90-b9c4-4385-b850-4d3c5832d9cc
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: bm1.armuz-trans.com
-- name: 🇳🇱224Mb | AntiDDoS Networks
+  sni: www.paypal.com
+- name: 🇬🇧57Mb | U1 Digital Services
   type: vless
-  server: 144.31.225.51
+  server: 77.239.123.49
   port: 443
-  uuid: e83bc3fd-5732-4b64-8f91-19fc7aa0edb0
+  uuid: 3dbd9377-43cc-46c3-b32c-2605908024eb
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: static-nl.song69.fun
-- name: 🇳🇱72Mb | Digital Hosting Provider
+  sni: u1de.richforever.ru
+- name: 🇩🇪133Mb | dataforest
   type: vless
-  server: 185.231.204.244
-  port: 443
-  uuid: 42a64b9a-ab79-4094-8656-30366a7c2ea3
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: nl-balancer.peregrine-sub.net
-- name: 🇳🇱74Mb | Fzco
-  type: vless
-  server: 48.102.160.14
-  port: 443
-  uuid: 882b1d03-f43c-4adf-abe7-4ace93d7e37b
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: node1.vazza.ratcraft.ru
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇺🇸75Mb | Banatsync Srl
-  type: vless
-  server: 31.77.227.42
-  port: 52006
-  uuid: 6fb89451-b573-4391-b046-d45ab9a6db49
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: frra.setlisting.ru
-- name: 🇺🇸145Mb | 'Ghita Telekom'
-  type: vless
-  server: 13.143.178.150
-  port: 52006
-  uuid: 6fb89451-b573-4391-b046-d45ab9a6db49
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: bm-g.armuz-trans.com
-- name: 🇺🇸173Mb | 'Ghita Telekom'
-  type: vless
-  server: 179.254.71.100
-  port: 52006
-  uuid: 6fb89451-b573-4391-b046-d45ab9a6db49
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: bm-pl.armuz-trans.com
-- name: 🇬🇧179Mb | 'Ghita Telekom'
-  type: vless
-  server: 87.192.47.6
-  port: 52006
-  uuid: 6fb89451-b573-4391-b046-d45ab9a6db49
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: bm-lv.armuz-trans.com
-- name: 🇺🇸171Mb | 'Ghita Telekom'
-  type: vless
-  server: 179.254.68.101
-  port: 52006
-  uuid: 6fb89451-b573-4391-b046-d45ab9a6db49
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: fl-1.sdohnite.org
-- name: 🇳🇱304Mb | Mastersoft SRL
-  type: vless
-  server: 144.48.10.243
-  port: 443
-  uuid: 2443c85b-8566-4d61-b6fa-9ccc012701e9
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: ab1.xt-game.net
-- name: 🇩🇪125Mb | dataforest
-  type: vless
-  server: b1eb8et.de14.h1clayd.click
+  server: 54cc62x.de14.h1clayd.click
   port: 443
   uuid: 2208b003-78b1-453c-b5ca-ce847ff0efd6
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: b1eb8et.de14.h1clayd.click
-- name: 🇺🇸64Mb | 'Ghita Telekom'
-  type: vless
-  server: 179.254.70.101
-  port: 52006
-  uuid: 6fb89451-b573-4391-b046-d45ab9a6db49
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: bm-e.armuz-trans.com
-- name: 🇦🇪134Mb | G-Core Labs
-  type: vless
-  server: 82.148.14.100
-  port: 52006
-  uuid: 6fb89451-b573-0064-b046-d45ab9a6db49
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: mvp.dont-block-please.dad
-- name: 🇸🇪113Mb | Fzco
-  type: vless
-  server: 177.202.72.194
-  port: 443
-  uuid: 882b1d03-f43c-4adf-abe7-4ace93d7e37b
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: node3.vazza.ratcraft.ru
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇺🇸361Mb | H2nexus Cloud Services - Fzco
-  type: vless
-  server: 109.120.183.40
-  port: 8443
-  uuid: 6fb89451-b573-0bb8-b046-d45ab9a6db49
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: 109.120.183.40
-- name: 🇺🇸118Mb | DigitalOcean
-  type: vless
-  server: ws137.mydosss.ccwu.cc
-  port: 443
-  uuid: 44be961e-c60d-463c-86d6-50ce6d8866c5
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: ws137.mydosss.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /3b575ddc8596
-    headers:
-      Host: ws137.mydosss.ccwu.cc
-- name: 🇺🇸190Mb | Rocket & Marinica
-  type: vless
-  server: 168.113.132.167
-  port: 52006
-  uuid: 6fb89451-b573-03e8-b046-d45ab9a6db49
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: 168.113.132.167
-- name: 🇺🇸293Mb | Rocket & Marinica
-  type: vless
-  server: 82.148.14.101
-  port: 52006
-  uuid: 6fb89451-b573-03e8-b046-d45ab9a6db49
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: st.sdohnite.org
-- name: 🇸🇪72Mb | Hostup AB
+  sni: 54cc62x.de14.h1clayd.click
+- name: 🇸🇪67Mb | Hostup AB
   type: vless
   server: 132.243.163.114
   port: 25191
@@ -265,7 +75,43 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: a8687er.se2.h1clayd.click
-- name: 🇫🇮65Mb | Hetzner Online
+- name: 🇧🇬235Mb | AdaptGroup
+  type: vless
+  server: 187.54.4.43
+  port: 443
+  uuid: f203fd20-2c61-4b6e-a8a7-75e9581e497b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: bg-adapt.static-s3.org
+- name: 🇸🇪67Mb | Hostup AB (2)
+  type: vless
+  server: se2.h1cloud.net
+  port: 25191
+  uuid: 62995b2a-8f82-41f8-ac80-dfdfc1253e76
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: a8687er.se2.h1clayd.click
+- name: 🇺🇸169Mb | Route 95
+  type: vless
+  server: 193.233.90.115
+  port: 8443
+  uuid: ab53f3b6-7962-4bc1-90f6-8420767b22a8
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: cdn-us.cahmes.space
+- name: 🇬🇧303Mb | Packet Star Networks Limited
+  type: vless
+  server: englandssihcwpocj.whooisthebest.ir
+  port: 10000
+  uuid: 49fe1f7b-e6f6-43dc-a67d-caade85128ba
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: amp-api-edge.apps.apple.com
+- name: 🇫🇮63Mb | Hetzner Online
   type: vless
   server: f0f0bet.fi2.h1clayd.click
   port: 443
@@ -277,91 +123,39 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: ''
-- name: 🇫🇮103Mb | Hetzner Online
-  type: vless
-  server: 78ec29x.fi2.h1clayd.click
-  port: 443
-  uuid: 537d8ade-134d-4ec2-905c-0187e7e1e22e
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: 78ec29x.fi2.h1clayd.click
-- name: 🇺🇸196Mb | Route 95
-  type: vless
-  server: us-05.avroraservice.online
-  port: 8443
-  uuid: ab53f3b6-7962-4bc1-90f6-8420767b22a8
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cdn-us.cahmes.space
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇫🇷113Mb | OVH SAS
-  - 🇺🇸165Mb | HostPapa
-  - 🇺🇸149Mb | 'Ghita Telekom'
-  - 🇺🇸151Mb | HostPapa
-  - 🇫🇮166Mb | Hetzner Online
-  - 🇩🇪367Mb | Cherry Servers
-  - 🇺🇸314Mb | FDCserversnet
-  - 🇺🇸250Mb | Banatsync Srl
-  - 🇳🇱224Mb | AntiDDoS Networks
-  - 🇳🇱72Mb | Digital Hosting Provider
-  - 🇳🇱74Mb | Fzco
-  - 🇺🇸75Mb | Banatsync Srl
-  - 🇺🇸145Mb | 'Ghita Telekom'
-  - 🇺🇸173Mb | 'Ghita Telekom'
-  - 🇬🇧179Mb | 'Ghita Telekom'
-  - 🇺🇸171Mb | 'Ghita Telekom'
-  - 🇳🇱304Mb | Mastersoft SRL
-  - 🇩🇪125Mb | dataforest
-  - 🇺🇸64Mb | 'Ghita Telekom'
-  - 🇦🇪134Mb | G-Core Labs
-  - 🇸🇪113Mb | Fzco
-  - 🇺🇸361Mb | H2nexus Cloud Services - Fzco
-  - 🇺🇸118Mb | DigitalOcean
-  - 🇺🇸190Mb | Rocket & Marinica
-  - 🇺🇸293Mb | Rocket & Marinica
-  - 🇸🇪72Mb | Hostup AB
-  - 🇫🇮65Mb | Hetzner Online
-  - 🇫🇮103Mb | Hetzner Online
-  - 🇺🇸196Mb | Route 95
+  - 🇫🇷423Mb | OVH SAS
+  - 🇫🇷373Mb | OVH SAS
+  - 🇺🇸366Mb | FDCserversnet
+  - 🇭🇰101Mb | VMISS
+  - 🇬🇧57Mb | U1 Digital Services
+  - 🇩🇪133Mb | dataforest
+  - 🇸🇪67Mb | Hostup AB
+  - 🇧🇬235Mb | AdaptGroup
+  - 🇸🇪67Mb | Hostup AB (2)
+  - 🇺🇸169Mb | Route 95
+  - 🇬🇧303Mb | Packet Star Networks Limited
+  - 🇫🇮63Mb | Hetzner Online
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇫🇷113Mb | OVH SAS
-  - 🇺🇸165Mb | HostPapa
-  - 🇺🇸149Mb | 'Ghita Telekom'
-  - 🇺🇸151Mb | HostPapa
-  - 🇫🇮166Mb | Hetzner Online
-  - 🇩🇪367Mb | Cherry Servers
-  - 🇺🇸314Mb | FDCserversnet
-  - 🇺🇸250Mb | Banatsync Srl
-  - 🇳🇱224Mb | AntiDDoS Networks
-  - 🇳🇱72Mb | Digital Hosting Provider
-  - 🇳🇱74Mb | Fzco
-  - 🇺🇸75Mb | Banatsync Srl
-  - 🇺🇸145Mb | 'Ghita Telekom'
-  - 🇺🇸173Mb | 'Ghita Telekom'
-  - 🇬🇧179Mb | 'Ghita Telekom'
-  - 🇺🇸171Mb | 'Ghita Telekom'
-  - 🇳🇱304Mb | Mastersoft SRL
-  - 🇩🇪125Mb | dataforest
-  - 🇺🇸64Mb | 'Ghita Telekom'
-  - 🇦🇪134Mb | G-Core Labs
-  - 🇸🇪113Mb | Fzco
-  - 🇺🇸361Mb | H2nexus Cloud Services - Fzco
-  - 🇺🇸118Mb | DigitalOcean
-  - 🇺🇸190Mb | Rocket & Marinica
-  - 🇺🇸293Mb | Rocket & Marinica
-  - 🇸🇪72Mb | Hostup AB
-  - 🇫🇮65Mb | Hetzner Online
-  - 🇫🇮103Mb | Hetzner Online
-  - 🇺🇸196Mb | Route 95
+  - 🇫🇷423Mb | OVH SAS
+  - 🇫🇷373Mb | OVH SAS
+  - 🇺🇸366Mb | FDCserversnet
+  - 🇭🇰101Mb | VMISS
+  - 🇬🇧57Mb | U1 Digital Services
+  - 🇩🇪133Mb | dataforest
+  - 🇸🇪67Mb | Hostup AB
+  - 🇧🇬235Mb | AdaptGroup
+  - 🇸🇪67Mb | Hostup AB (2)
+  - 🇺🇸169Mb | Route 95
+  - 🇬🇧303Mb | Packet Star Networks Limited
+  - 🇫🇮63Mb | Hetzner Online
 rules:
 - MATCH,🌍 Прокси
