@@ -1,388 +1,204 @@
-# Обновлено: 2026-11-22 17:16 UTC
-# Всего в источнике: 34
-# Живых серверов: 31
+# Обновлено: 2026-11-22 22:39 UTC
+# Всего в источнике: 15
+# Живых серверов: 15
 # Источник: 26.txt
 
 proxies:
-- name: 🇩🇪176Mb | Cherry Servers
+- name: 🇫🇷336Mb | OVH SAS
   type: vless
-  server: 172.67.197.170
-  port: 443
-  uuid: 88e79aa6-f431-4453-8dcc-652a0c747198
+  server: cdn-nl.vpnserverhub.com
+  port: 8080
+  uuid: 3fe2284d-e606-412e-a1f0-01e1e5309695
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /vpn-secure-cdn
+    headers:
+      Host: cdn-nl.vpnserverhub.com
+- name: 🇩🇪349Mb | Hetzner Online
+  type: vless
+  server: mhcdn.sudo-network.co
+  port: 2087
+  uuid: 8d2c45b0-58d6-4c79-8b66-2a7876f9dfbb
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: o685y.save-node.com
-  network: ws
-  ws-opts:
-    path: /api/se1k2rfxlsuer3ry4u6e84kl8rqp721p
-    headers:
-      Host: o685y.save-node.com
-- name: 🇩🇪93Mb | Cherry Servers
+  sni: pro.sudo-network.co
+- name: 🇩🇪62Mb | OVH SAS
   type: vless
-  server: 178.248.236.229
+  server: files-qzgs.login.opendns.stream
   port: 443
   uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: 144.hexdey.com
-- name: 🇬🇧106Mb | NetCrafters OU
-  type: vless
-  server: 45.86.74.209
-  port: 443
-  uuid: e8b7b937-85d9-43f3-bb7a-7d98478756d7
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: gemcon.mcufa.pro
-- name: 🇩🇪190Mb | Akenai Products
-  type: vless
-  server: 31.56.18.208
-  port: 443
-  uuid: e8b7b937-85d9-43f3-bb7a-7d98478756d7
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: gerb1.mcufa.pro
-- name: 🇺🇸90Mb | PrefixLabs DOO
-  type: vless
-  server: 217.60.66.9
-  port: 443
-  uuid: b7049a06-1e51-4e2d-854a-7f81b0d0b35f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: gnl7847.maxleshax.icu
-- name: 🇳🇱168Mb | FDCserversnet
-  type: vless
-  server: 50.7.221.246
-  port: 9443
-  uuid: 7b59b71c-a798-4b88-ad3d-1585a3bc6222
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: xn--80ajpqkcj.xn----9sbekcigdcaa6cd7cafr7e.xn--p1ai
-- name: 🇳🇱86Mb | FDCserversnet
-  type: vless
-  server: 50.7.221.219
-  port: 443
-  uuid: be139ef0-3768-409c-82d9-d759dbcb4458
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: xn--80abgtcaqw1f.xn----9sbekcigdcaa6cd7cafr7e.xn--p1ai
-  network: grpc
-  grpc-opts:
-    grpc-service-name: cdnsync.v2.Transfer
-- name: 🇳🇱102Mb | FDCserversnet
-  type: vless
-  server: 50.7.122.243
-  port: 443
-  uuid: f350ebe0-d1fb-4710-a20e-32b439fa0cc4
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: xn--e1afgzg.xn----9sbekcigdcaa6cd7cafr7e.xn--p1ai
-  network: grpc
-  grpc-opts:
-    grpc-service-name: cdnsync.v2.Transfer
-- name: 🇳🇱137Mb | Dedik Services Limited
-  type: vless
-  server: nl7.maxleshax.icu
-  port: 443
-  uuid: be14c829-54ae-44e9-bd06-26f1a936b32c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: nl7.maxleshax.icu
-- name: 🇵🇱208Mb | Kochedykov Egor Aleksandrovich
-  type: vless
-  server: 177.3.252.240
-  port: 8443
-  uuid: b1dde8e4-9f7c-4468-93cf-53c64d933b54
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: hub.zadonat.net
-- name: 🇵🇱128Mb | PrefixLabs DOO
-  type: vless
-  server: 217.60.25.207
-  port: 443
-  uuid: b7049a06-1e51-4e2d-854a-7f81b0d0b35f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: gpl7843.maxleshax.icu
-- name: 🇦🇪87Mb | Moula World
-  type: vless
-  server: 206.245.152.137
-  port: 54443
-  uuid: d3eeebec-d7ba-4695-a1ea-2f2407c86582
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: snobvpn.online
-- name: 🇵🇱61Mb | H2nexus Cloud Services - Fzco
-  type: vless
-  server: 144.31.0.153
-  port: 443
-  uuid: a086c8e2-7a2f-4265-9518-6d7529106b80
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: pool.recrent-sell.com
-- name: 🇬🇧236Mb | NetCrafters OU
-  type: vless
-  server: 82.148.228.103
-  port: 443
-  uuid: e8b7b937-85d9-43f3-bb7a-7d98478756d7
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: stock1.mcufa.pro
-- name: 🇫🇮244Mb | Datacamp Limited
-  type: vless
-  server: 178.214.125.2
-  port: 443
-  uuid: da8972f9-770f-4012-ab46-5de2711a718b
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: conf.emaar.ru
-- name: 🇩🇪214Mb | Akenai Products
-  type: vless
-  server: 185.86.147.80
-  port: 9441
-  uuid: e8b7b937-85d9-43f3-bb7a-7d98478756d7
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: keshyou.mcufa.pro
-- name: 🇩🇪143Mb | Akenai Products
-  type: vless
-  server: 185.86.147.80
-  port: 9443
-  uuid: e8b7b937-85d9-43f3-bb7a-7d98478756d7
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: keshyou.mcufa.pro
-- name: 🇺🇸80Mb | Route 95
-  type: vless
-  server: 45.88.177.79
-  port: 8443
-  uuid: ab53f3b6-7962-4bc1-90f6-8420767b22a8
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cdn-us.cahmes.space
-- name: 🇩🇪92Mb | Akenai Products
-  type: vless
-  server: 185.86.147.80
-  port: 9442
-  uuid: e8b7b937-85d9-43f3-bb7a-7d98478756d7
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: keshyou.mcufa.pro
-- name: 🇩🇪89Mb | Akenai Products
-  type: vless
-  server: 185.86.147.80
-  port: 5443
-  uuid: e8b7b937-85d9-43f3-bb7a-7d98478756d7
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: keshyou.mcufa.pro
-- name: 🇳🇱49Mb | GTHost
-  type: vless
-  server: 138.16.206.147
-  port: 9114
-  uuid: d81db550-4787-467e-b98a-579ee9d41999
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.cloudflare.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: inetgrpc
-- name: 🇩🇪170Mb | GTHost
-  type: vless
-  server: 84.23.52.104
-  port: 9009
-  uuid: d81db550-4787-467e-b98a-579ee9d41999
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: n1.93-89-220-9.sslip.io
-  network: grpc
-  grpc-opts:
-    grpc-service-name: inetgrpc
-- name: 🇺🇸145Mb | Servhost Group
-  type: vless
-  server: 84.23.52.104
-  port: 9125
-  uuid: d81db550-4787-467e-b98a-579ee9d41999
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.cloudflare.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: inetgrpc
-- name: 🇫🇮56Mb | Fzco
-  type: vless
-  server: 81.222.148.87
-  port: 53443
-  uuid: d3eeebec-d7ba-4695-a1ea-2f2407c86582
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: snobvpn.online
-- name: 🇺🇸60Mb | Interserver
-  type: vless
-  server: 153.56.230.77
-  port: 25155
-  uuid: 62995b2a-8f82-41f8-ac80-dfdfc1253e76
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: 48688cr.us12.h1clayd.click
-- name: 🇮🇹114Mb | Datacamp Limited
-  type: vless
-  server: 185bd37129.salzivo.ir
-  port: 443
-  uuid: 62bcf711-1ea8-4012-b889-54c3e0d26e9e
-  udp: true
-  skip-cert-verify: true
-  encryption: none
   tls: true
-  sni: static.65.198.233.167.clients.your-server.de
-- name: 🇩🇪189Mb | Hetzner Online
-  type: vless
-  server: dl2.mbndadwsdf132131.torkey.ir
-  port: 443
-  uuid: c8abc13e-b40a-4a68-893a-756d3684a7fe
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: dl2.mbndadwsdf132131.torkey.ir
+  sni: files-qzgs.login.opendns.stream
   network: ws
   ws-opts:
-    path: /games/fortnite
+    path: /origin/246825491/fetch
     headers:
-      Host: dl2.mbndadwsdf132131.torkey.ir
-- name: 🇩🇪130Mb | Hetzner Online
+      Host: files-qzgs.login.opendns.stream
+- name: 🇺🇸85Mb | Unredacted
   type: vless
-  server: dl2.mbndadwsdf132131.torkey.ir
+  server: 176.126.122.236
+  port: 443
+  uuid: 5ffd100f-7233-493b-bf0b-86b8da170f76
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: challenge.worldoftanks.eu
+- name: 🇺🇸84Mb | Unredacted
+  type: vless
+  server: hiccuped-tacos.sports-streams.org
+  port: 443
+  uuid: 5ffd100f-7233-493b-bf0b-86b8da170f76
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: challenge.worldoftanks.eu
+- name: 🇩🇪175Mb | H2nexus Cloud Services - Fzco
+  type: vless
+  server: 191.217.215.228
   port: 2053
-  uuid: c8abc13e-b40a-4a68-893a-756d3684a7fe
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.digikala.com
-- name: 🇩🇪209Mb | Akenai Products
-  type: vless
-  server: cdn175.whitenw.net
-  port: 8448
-  uuid: 30e39c03-8c36-48a9-9390-ab0fdcc107c0
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cdn175.whitenw.net
-- name: 🇩🇪135Mb | Hetzner Online
-  type: vless
-  server: dl3.mbndadwsdf132131.torkey.ir
-  port: 8443
-  uuid: c8abc13e-b40a-4a68-893a-756d3684a7fe
+  uuid: fbe22815-0718-4eae-816f-e91c67d15b54
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: dl3.mbndadwsdf132131.torkey.ir
-- name: 🇳🇱120Mb | Servers Tech Fzco
+  sni: 191.217.215.228
+- name: 🇦🇹211Mb | FDCserversnet
   type: vless
-  server: 195.63.143.129
-  port: 8446
-  uuid: 5d98ff1a-d576-46d3-9504-b158d94bcce9
+  server: 189.74.115.30
+  port: 443
+  uuid: 631263fd-3e12-49ac-be1b-c26bcc36ba43
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: www.kpn.com
+  sni: api.mediaroshcha.cc
+- name: 🇳🇱77Mb | Vladislav Doniy
+  type: vless
+  server: 94.183.164.48
+  port: 443
+  uuid: e8b7b937-85d9-43f3-bb7a-7d98478756d7
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: turtle1.mcufa.pro
+- name: 🇫🇷197Mb | Stellar Group SAS
+  type: vless
+  server: 77.73.20.134
+  port: 2100
+  uuid: 43add026-128a-47d3-a403-b3875b4638db
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: yastatic.net
+- name: 🇩🇪313Mb | GTHost
+  type: vless
+  server: 138.16.206.147
+  port: 2096
+  uuid: d81db550-4787-467e-b98a-579ee9d41999
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: inetgrpc
+- name: 🇩🇪233Mb | Play2go International Limited
+  type: vless
+  server: 138.16.206.147
+  port: 9096
+  uuid: d81db550-4787-467e-b98a-579ee9d41999
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: p2g.138-16-206-147.sslip.io
+  network: grpc
+  grpc-opts:
+    grpc-service-name: inetgrpc
+- name: 🇩🇪253Mb | GTHost
+  type: vless
+  server: 138.16.206.147
+  port: 443
+  uuid: d81db550-4787-467e-b98a-579ee9d41999
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: inetgrpc
+- name: 🇮🇱191Mb | Kamatera
+  type: vless
+  server: swe.srv.hiddenmedia.pw
+  port: 443
+  uuid: e54fc748-c657-4820-b593-87d333e8d137
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: swe.srv.hiddenmedia.pw
+- name: 🇺🇸61Mb | Servhost Group
+  type: vless
+  server: rusea1.riseservice.me
+  port: 443
+  uuid: 9192ae0a-8a0f-47ac-950b-de7410f2fdf0
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: rusea1.riseservice.me
+- name: 🇫🇮83Mb | Hetzner Online
+  type: vless
+  server: 83.171.241.136
+  port: 443
+  uuid: 2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 78ec29x.fi2.h1clayd.click
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇩🇪176Mb | Cherry Servers
-  - 🇩🇪93Mb | Cherry Servers
-  - 🇬🇧106Mb | NetCrafters OU
-  - 🇩🇪190Mb | Akenai Products
-  - 🇺🇸90Mb | PrefixLabs DOO
-  - 🇳🇱168Mb | FDCserversnet
-  - 🇳🇱86Mb | FDCserversnet
-  - 🇳🇱102Mb | FDCserversnet
-  - 🇳🇱137Mb | Dedik Services Limited
-  - 🇵🇱208Mb | Kochedykov Egor Aleksandrovich
-  - 🇵🇱128Mb | PrefixLabs DOO
-  - 🇦🇪87Mb | Moula World
-  - 🇵🇱61Mb | H2nexus Cloud Services - Fzco
-  - 🇬🇧236Mb | NetCrafters OU
-  - 🇫🇮244Mb | Datacamp Limited
-  - 🇩🇪214Mb | Akenai Products
-  - 🇩🇪143Mb | Akenai Products
-  - 🇺🇸80Mb | Route 95
-  - 🇩🇪92Mb | Akenai Products
-  - 🇩🇪89Mb | Akenai Products
-  - 🇳🇱49Mb | GTHost
-  - 🇩🇪170Mb | GTHost
-  - 🇺🇸145Mb | Servhost Group
-  - 🇫🇮56Mb | Fzco
-  - 🇺🇸60Mb | Interserver
-  - 🇮🇹114Mb | Datacamp Limited
-  - 🇩🇪189Mb | Hetzner Online
-  - 🇩🇪130Mb | Hetzner Online
-  - 🇩🇪209Mb | Akenai Products
-  - 🇩🇪135Mb | Hetzner Online
-  - 🇳🇱120Mb | Servers Tech Fzco
+  - 🇫🇷336Mb | OVH SAS
+  - 🇩🇪349Mb | Hetzner Online
+  - 🇩🇪62Mb | OVH SAS
+  - 🇺🇸85Mb | Unredacted
+  - 🇺🇸84Mb | Unredacted
+  - 🇩🇪175Mb | H2nexus Cloud Services - Fzco
+  - 🇦🇹211Mb | FDCserversnet
+  - 🇳🇱77Mb | Vladislav Doniy
+  - 🇫🇷197Mb | Stellar Group SAS
+  - 🇩🇪313Mb | GTHost
+  - 🇩🇪233Mb | Play2go International Limited
+  - 🇩🇪253Mb | GTHost
+  - 🇮🇱191Mb | Kamatera
+  - 🇺🇸61Mb | Servhost Group
+  - 🇫🇮83Mb | Hetzner Online
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇩🇪176Mb | Cherry Servers
-  - 🇩🇪93Mb | Cherry Servers
-  - 🇬🇧106Mb | NetCrafters OU
-  - 🇩🇪190Mb | Akenai Products
-  - 🇺🇸90Mb | PrefixLabs DOO
-  - 🇳🇱168Mb | FDCserversnet
-  - 🇳🇱86Mb | FDCserversnet
-  - 🇳🇱102Mb | FDCserversnet
-  - 🇳🇱137Mb | Dedik Services Limited
-  - 🇵🇱208Mb | Kochedykov Egor Aleksandrovich
-  - 🇵🇱128Mb | PrefixLabs DOO
-  - 🇦🇪87Mb | Moula World
-  - 🇵🇱61Mb | H2nexus Cloud Services - Fzco
-  - 🇬🇧236Mb | NetCrafters OU
-  - 🇫🇮244Mb | Datacamp Limited
-  - 🇩🇪214Mb | Akenai Products
-  - 🇩🇪143Mb | Akenai Products
-  - 🇺🇸80Mb | Route 95
-  - 🇩🇪92Mb | Akenai Products
-  - 🇩🇪89Mb | Akenai Products
-  - 🇳🇱49Mb | GTHost
-  - 🇩🇪170Mb | GTHost
-  - 🇺🇸145Mb | Servhost Group
-  - 🇫🇮56Mb | Fzco
-  - 🇺🇸60Mb | Interserver
-  - 🇮🇹114Mb | Datacamp Limited
-  - 🇩🇪189Mb | Hetzner Online
-  - 🇩🇪130Mb | Hetzner Online
-  - 🇩🇪209Mb | Akenai Products
-  - 🇩🇪135Mb | Hetzner Online
-  - 🇳🇱120Mb | Servers Tech Fzco
+  - 🇫🇷336Mb | OVH SAS
+  - 🇩🇪349Mb | Hetzner Online
+  - 🇩🇪62Mb | OVH SAS
+  - 🇺🇸85Mb | Unredacted
+  - 🇺🇸84Mb | Unredacted
+  - 🇩🇪175Mb | H2nexus Cloud Services - Fzco
+  - 🇦🇹211Mb | FDCserversnet
+  - 🇳🇱77Mb | Vladislav Doniy
+  - 🇫🇷197Mb | Stellar Group SAS
+  - 🇩🇪313Mb | GTHost
+  - 🇩🇪233Mb | Play2go International Limited
+  - 🇩🇪253Mb | GTHost
+  - 🇮🇱191Mb | Kamatera
+  - 🇺🇸61Mb | Servhost Group
+  - 🇫🇮83Mb | Hetzner Online
 rules:
 - MATCH,🌍 Прокси
